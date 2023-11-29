@@ -1,0 +1,304 @@
+[2023-11-20 12:13:14] Текст ошибки: No connection to DB | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Db.php | Строка: 19
+=================
+[2023-11-20 12:13:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-20 12:13:25] Текст ошибки: No connection to DB | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Db.php | Строка: 19
+=================
+[2023-11-20 12:14:22] Текст ошибки: file_put_contents(C:\OSPanel\domains\onlybuy.sho/tmp/cache/2953c6ae6820d007c488f1c991e91b06.txt): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Cache.php | Строка: 16
+=================
+[2023-11-20 12:19:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-20 12:32:50] Текст ошибки: Метод app\controllers\BlogController::modelAction не найден | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Router.php | Строка: 59
+=================
+[2023-11-20 12:34:14] Текст ошибки: Метод app\controllers\BlogController::modelAction не найден | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Router.php | Строка: 59
+=================
+[2023-11-20 12:34:23] Текст ошибки: Метод app\controllers\BlogController::modelAction не найден | Файл: C:\OSPanel\domains\onlybuy.sho\vendor\wfm\Router.php | Строка: 59
+=================
+[2023-11-27 18:28:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 18:47:57] Текст ошибки: Not found language page | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:47:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 18:48:07] Текст ошибки: Not found language page | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:48:14] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:48:19] Текст ошибки: Not found language contaccts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:48:24] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:48:25] Текст ошибки: Not found language contaccts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:51:01] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:51:07] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:51:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 18:51:13] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:51:15] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:58:32] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 18:58:35] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:02:10] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:02:10] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:02:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 19:02:16] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:03:51] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:03:52] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:03:54] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:06:05] Текст ошибки: Контроллер app\controllers\ContactsController не найден | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-11-27 19:06:11] Текст ошибки: Контроллер app\controllers\ContactsController не найден | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-11-27 19:06:51] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: C:\OSPanel\domains\t100.sho\app\controllers\ContactsController.php | Строка: 18
+=================
+[2023-11-27 19:07:48] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: C:\OSPanel\domains\t100.sho\app\controllers\ContactsController.php | Строка: 18
+=================
+[2023-11-27 19:09:29] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: C:\OSPanel\domains\t100.sho\app\controllers\ContactsController.php | Строка: 21
+=================
+[2023-11-27 19:09:51] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:10:27] Текст ошибки: Not found language contacts | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:12:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 19:14:21] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:14:24] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:15:24] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:15:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-27 19:19:19] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:22:35] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-27 19:23:39] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 14:08:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 14:27:54] Текст ошибки: Undefined property: wfm\Registry::$getProrepties | Файл: C:\OSPanel\domains\t100.sho\public\index.php | Строка: 14
+=================
+[2023-11-28 14:28:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 14:28:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 14:29:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:53] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:16:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:56] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:16:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:16:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:17:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:17:05] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:17:05] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:17:33] Текст ошибки: Не найден вид C:\OSPanel\domains\t100.sho/app/views/Blogs/view.php | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\View.php | Строка: 38
+=================
+[2023-11-28 17:17:38] Текст ошибки: Not found language blog | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:17:52] Текст ошибки: Не найден вид C:\OSPanel\domains\t100.sho/app/views/Blogs/view.php | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\View.php | Строка: 38
+=================
+[2023-11-28 17:19:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:19:26] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:21:06] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:21:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:12] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:21:35] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:21:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:35] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:22:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:22:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:25:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:25:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:25:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:25:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:26:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:38:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:38:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:38:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:38:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:39:31] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:40:22] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:41:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:35] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:41:48] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:42:40] Текст ошибки: Undefined array key "slug" | Файл: C:\OSPanel\domains\t100.sho\app\controllers\ProductController.php | Строка: 18
+=================
+[2023-11-28 17:42:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:42:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:42:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:42:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:56] Текст ошибки: Not found language product | Файл: C:\OSPanel\domains\t100.sho\app\widgets\language\Language.php | Строка: 42
+=================
+[2023-11-28 17:54:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:58] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:58] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:54:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:55:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:55:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-11-28 17:55:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
+=================
