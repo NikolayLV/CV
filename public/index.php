@@ -10,6 +10,3 @@ require_once CONFIG . '/routes.php';
 
 
 new \wfm\App();
-echo '<pre>';
-var_dump(\wfm\App::$app->getProperties());
-echo '</pre>';

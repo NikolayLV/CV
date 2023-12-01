@@ -302,3 +302,19 @@
 =================
 [2023-11-28 17:55:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\t100.sho\vendor\wfm\Router.php | Строка: 66
 =================
+[2023-12-01 13:39:57] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-12-01 13:39:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-01 13:40:31] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-12-01 13:42:05] Текст ошибки: Class "app\models\Wishlist" not found | Файл: C:\OSPanel\domains\p100.sho\app\controllers\AppController.php | Строка: 34
+=================
+[2023-12-01 13:42:18] Текст ошибки: Не найден вид C:\OSPanel\domains\p100.sho/app/views/Main/index.php | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\View.php | Строка: 38
+=================
+[2023-12-01 13:43:29] Текст ошибки: Не найден шаблон C:\OSPanel\domains\p100.sho/app/views/layouts/p100.php | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\View.php | Строка: 46
+=================
+[2023-12-01 13:44:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-01 13:55:01] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newishop.slider' doesn't exist | Файл: C:\OSPanel\domains\p100.sho\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
