@@ -10,7 +10,7 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'p100');
-define("PATH", 'https://t100.sho');
+define("PATH", 'https://p100.sho');
 define("NO_IMAGE", '/uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
