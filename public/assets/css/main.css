@@ -144,6 +144,11 @@ li a.dropdown-item:focus, li a.dropdown-item:hover {
     background-color: #481173;
 }
 
+.lng_img {
+    width: 32px;
+    height: 32px;
+}
+
 .form-control:focus {
     color: #212529;
     background-color: #fff;
