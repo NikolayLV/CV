@@ -324,3 +324,7 @@
 =================
 [2023-12-01 14:17:35] Текст ошибки: Class "app\models\Cart" not found | Файл: C:\OSPanel\domains\p100.sho\app\controllers\LanguageController.php | Строка: 39
 =================
+[2023-12-01 14:21:04] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: C:\OSPanel\domains\p100.sho\app\widgets\menu\Menu.php | Строка: 79
+=================
+[2023-12-01 14:21:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
