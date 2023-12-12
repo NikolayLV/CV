@@ -1,104 +1,70 @@
 <?php
+	if (!isset($_SESSION['visited'])) {
+		// Если куки не установлены, отправляем сценарий JavaScript
+		echo '<script type="text/javascript">let showModal = true;</script>';
 
+		// Устанавливаем куки, чтобы не показывать модальное окно снова
+		$_SESSION['visited'] = true;
+	}
     ?>
 <?php $this->getPart('parts/header'); ?>
+<?php $this->getPart('parts/modal'); ?>
 
-<section class="main">
-    <div class="main_block">
-        <img class="main_photo" src="<?php WWW ?>/assets/img/main.png" alt="">
-    </div>
-</section>
-<section class="quote">
-<p class="quote_p"><?php __('quote'); ?></p>
-</section>
-<section class="about">
-    <div class="about_left">
-        <h1><?php __('about'); ?></h1>
-        <p></p>
-    </div>
-    <div class="about_right">
-        <img class="about_img" src="<?php WWW ?>/assets/img/about.png" alt="">
-    </div>
-</section>
-<section class="skills">
-<div class="skills_left">
-    <div class="img_left">
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/php.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/js.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/mysql.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/git.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/github.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/vagrant.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/laravel.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/linux.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/apache.svg" alt="">
-        </div>
-    </div>
-    <div class="img_right">
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/react.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/html.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/css.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/nodejs.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/redux.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/bootstrap.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/figma.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/jetbrains.svg" alt="">
-        </div>
-        <div class="skills_div_img">
-            <img class="skills_img" src="<?php WWW ?>/assets/img/photoshop.svg" alt="">
-        </div>
-    </div>
-   </div>
-    <div class="skills_right">
-        <div class="skills_info">
-            <h1 class="skills_h1"><?php __('skills'); ?></h1>
-        </div>
+<?php
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		if (isset($_POST['options'])) {
+			$selectedOption = $_POST['options'];
+			if ($selectedOption == 'official') {
+				$this->getLayout('official');
+			}
+            else {
+				$this->getLayout('creative');
+            }
+		}
+	}
 
+
+?>
+
+
+<div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+    <div class="wheel"></div>
+    <div class="hamster">
+        <div class="hamster__body">
+            <div class="hamster__head">
+                <div class="hamster__ear"></div>
+                <div class="hamster__eye"></div>
+                <div class="hamster__nose"></div>
+            </div>
+            <div class="hamster__limb hamster__limb--fr"></div>
+            <div class="hamster__limb hamster__limb--fl"></div>
+            <div class="hamster__limb hamster__limb--br"></div>
+            <div class="hamster__limb hamster__limb--bl"></div>
+            <div class="hamster__tail"></div>
+        </div>
     </div>
-</section>
-<section class="exp">
+    <div class="spoke"></div>
+</div>
 
-</section>
 
+<?php $this->getPart('parts/footer'); ?>
 <script>
-    const PATH = '<?= PATH ?>';
+    // Проверяем, нужно ли показать модальное окно
+    if (typeof showModal !== 'undefined' && showModal) {
+        // Ваш код для отображения модального окна
+        document.getElementById('modal').classList.add('open');
+    }
+
+    // function btnSubmit() {
+    //     document.getElementById('modal').classList.remove('open');
+    //     let LayoutCreative = document.getElementById('radio_creative');
+    //     let LayoutOfficial = document.getElementById('radio_official');
+    //     if (LayoutCreative.checked) {
+    //         document.getElementById('layout_creative').classList.add('show');
+    //     } else if (LayoutOfficial.checked) {
+    //         document.getElementById('layout_official').classList.add('show');
+    //     } else {
+    //         document.getElementById('layout_creative').classList.add('show');
+    //     }
+    // }
 </script>
-<script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous"></script>
-<script src="<?= PATH ?>/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="<?= PATH ?>/assets/js/sweetalert2.js"></script>
-<script src="<?= PATH ?>/assets/js/main.js"></script>

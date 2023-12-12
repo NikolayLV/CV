@@ -368,3 +368,57 @@
 =================
 [2023-12-12 16:02:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
 =================
+[2023-12-12 16:42:28] Текст ошибки: Не найден шаблон C:\OSPanel\domains\p100.sho/app/views/layouts/creative.php | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\View.php | Строка: 46
+=================
+[2023-12-12 16:44:57] Текст ошибки: session_start(): Ignoring session_start() because a session is already active | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 2
+=================
+[2023-12-12 16:45:03] Текст ошибки: session_start(): Ignoring session_start() because a session is already active | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 2
+=================
+[2023-12-12 17:05:35] Текст ошибки: syntax error, unexpected identifier "modal", expecting "," or ";" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 4
+=================
+[2023-12-12 18:19:26] Текст ошибки: Array callback must have exactly two elements | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 66
+=================
+[2023-12-12 18:20:19] Текст ошибки: Undefined array key "style" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 66
+=================
+[2023-12-12 18:21:05] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 66
+=================
+[2023-12-12 18:22:50] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 11
+=================
+[2023-12-12 18:25:16] Текст ошибки: Undefined array key "style_layout_data" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 71
+=================
+[2023-12-12 18:25:25] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 71
+=================
+[2023-12-12 18:28:27] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:28:49] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:28:50] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:30:16] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:30:16] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:30:39] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:30:59] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:31:00] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:31:04] Текст ошибки: Undefined array key "style_layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 14
+=================
+[2023-12-12 18:36:09] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:03] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:03] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:03] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:03] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:04] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:04] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
+[2023-12-12 18:37:08] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
+=================
