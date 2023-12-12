@@ -114,3 +114,18 @@ h1, h2, h3, li, ul, a {
     min-width: 0rem;
     transform: translate(-25px, 28px)!important;
 }
+
+.about {
+    display: flex;
+}
+.about_img {
+    width: 700px;
+    height: 930px;
+}
+.skills {
+    background-image: url("https://p100.sho/assets/img/skills.png");
+    display: flex;
+}
+.exp {
+    height: 1100px;
+}
