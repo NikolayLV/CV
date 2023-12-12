@@ -1,48 +1,41 @@
 <?php
 	if (!isset($_SESSION['visited'])) {
 		// Если куки не установлены, отправляем сценарий JavaScript
+		$this->getPart('parts/loading');
 		echo '<script type="text/javascript">let showModal = true;</script>';
 
 		// Устанавливаем куки, чтобы не показывать модальное окно снова
 		$_SESSION['visited'] = true;
 	}
     ?>
-<?php
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$this->getPart('parts/header');
-	}
-
+<?php if ($_SESSION['visited'] == true) {
+	$this->getPart('parts/header');
+}
      ?>
-
-<?php
-
-    $this->getPart('parts/loading');
-
-    ?>
 
 <?php $this->getPart('parts/modal'); ?>
 
 <?php
+    $isCreative = null;
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		if (isset($_POST['options'])) {
 			$selectedOption = $_POST['options'];
 			if ($selectedOption == 'official') {
 				sleep(3);
-				$this->getLayout('official');
+				$isCreative = false;
 			} else if ($selectedOption == 'creative') {
 				sleep(3);
-				$this->getLayout('creative');
+				$isCreative = true;
             }
-            else {
-				$this->getLayout('creative');
-            }
-
-		}
+        }
 	}
 
-
+    if ($isCreative) {
+		$this->getLayout('creative');
+    } else {
+		$this->getLayout('official');
+    }
 ?>
-
 
 <?php $this->getPart('parts/footer'); ?>
 <script>
@@ -54,7 +47,6 @@
 
     function btnSubmit() {
         document.getElementById('modal').classList.remove('open');
-        setTimeout(closeLoad, 3000);
     }
     // function closeLoad() {
     //     document.getElementById('').style.display = 'none';

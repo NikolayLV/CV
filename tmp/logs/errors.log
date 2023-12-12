@@ -422,3 +422,13 @@
 =================
 [2023-12-12 18:37:08] Текст ошибки: Undefined array key "stylelayout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 21
 =================
+[2023-12-12 22:49:23] Текст ошибки: Undefined variable $layout | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 38
+=================
+[2023-12-12 22:49:56] Текст ошибки: Undefined variable $layout | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 41
+=================
+[2023-12-12 22:51:59] Текст ошибки: syntax error, unexpected variable "$layout", expecting ")" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 41
+=================
+[2023-12-12 22:52:58] Текст ошибки: Undefined variable $layout | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 41
+=================
+[2023-12-12 23:01:52] Текст ошибки: Undefined variable $isCreative | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 30
+=================

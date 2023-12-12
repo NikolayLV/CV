@@ -13,21 +13,12 @@
 				<input type="radio" name="options" value="creative">
 				Creative
 			</label>
-
+            <br/>
 			<label>
 				<input type="radio" name="options" value="official">
 				Official
 			</label>
 			<br/>
-			<label>
-				<input type="radio" name="languages" id="en" value="english">
-				English
-			</label>
-
-			<label>
-				<input type="radio" name="languages" id="de" value="german">
-				German
-			</label>
 			<input type="submit" onclick="btnSubmit()" value="Отправить">
 		</form>
 	</div>

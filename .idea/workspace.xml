@@ -7,8 +7,8 @@
     <list default="true" id="60918382-ab2a-45a2-b9cd-edfa57f1256a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/loading.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/loading.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/modal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/logs/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702377127362</updated>
-      <workItem from="1702377128388" duration="18385000" />
+      <workItem from="1702377128388" duration="20139000" />
     </task>
     <servers />
   </component>
