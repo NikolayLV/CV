@@ -1,7 +1,11 @@
 <?php
 
 return [
-    'test' => 'Dies ist der erste und Testtext für Mehrsprachigkeit.',
+    'header_about' => 'Um',
+	'header_skills' => 'Fähigkeiten',
+	'header_exp' => 'Erfahrung',
+
+	'quote' => 'TUN SIE HEUTE, WAS ANDERE NICHT WOLLEN – MORGEN WERDEN SIE SO LEBEN, WAS ANDERE NICHT KÖNNEN',
 
 	'tpl_error_404' => '404 - Seite nicht gefunden',
 ];

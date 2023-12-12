@@ -328,3 +328,35 @@
 =================
 [2023-12-01 14:21:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
 =================
+[2023-12-12 13:28:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:35:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:35:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:36:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:36:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:46:04] Текст ошибки: syntax error, unexpected token "endif" | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 17
+=================
+[2023-12-12 13:46:12] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-12-12 13:46:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-12 13:46:13] Текст ошибки: syntax error, unexpected token "endif" | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 17
+=================
+[2023-12-12 13:46:14] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 62
+=================
+[2023-12-12 13:46:14] Текст ошибки: syntax error, unexpected token "endif" | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 17
+=================
+[2023-12-12 13:47:11] Текст ошибки: Undefined variable $v | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 3
+=================
+[2023-12-12 13:48:31] Текст ошибки: syntax error, unexpected end of file | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 16
+=================
+[2023-12-12 13:48:38] Текст ошибки: syntax error, unexpected end of file | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 16
+=================
+[2023-12-12 13:48:39] Текст ошибки: syntax error, unexpected end of file | Файл: C:\OSPanel\domains\p100.sho\app\widgets\language\lang_tpl.php | Строка: 16
+=================
+[2023-12-12 13:51:52] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 62
+=================
