@@ -229,17 +229,20 @@ h1, h2, h3, li, ul, a {
     font-weight: 600;
 }
 
-
+.load {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    margin-top: 150px;
+    height: 300px;
+}
 .wheel-and-hamster {
     --dur: 1s;
     position: relative;
     width: 12em;
     height: 12em;
     font-size: 14px;
-    display: none;
-}
-.wheel-and-hamster.open {
-    display: block;
 }
 
 .wheel,

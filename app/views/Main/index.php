@@ -7,8 +7,18 @@
 		$_SESSION['visited'] = true;
 	}
     ?>
-<?php $this->getPart('parts/header'); ?>
-<?php $this->getPart('parts/loading'); ?>
+<?php
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$this->getPart('parts/header');
+	}
+
+     ?>
+
+<?php
+
+    $this->getPart('parts/loading');
+
+    ?>
 
 <?php $this->getPart('parts/modal'); ?>
 
@@ -17,11 +27,16 @@
 		if (isset($_POST['options'])) {
 			$selectedOption = $_POST['options'];
 			if ($selectedOption == 'official') {
+				sleep(3);
 				$this->getLayout('official');
-			}
+			} else if ($selectedOption == 'creative') {
+				sleep(3);
+				$this->getLayout('creative');
+            }
             else {
 				$this->getLayout('creative');
             }
+
 		}
 	}
 
@@ -39,10 +54,9 @@
 
     function btnSubmit() {
         document.getElementById('modal').classList.remove('open');
-        document.getElementById('load').classList.add('open');
-        setTimeout(closeLoad, 5000);
+        setTimeout(closeLoad, 3000);
     }
-    function closeLoad() {
-        document.getElementById('load').classList.remove('open');
-    }
+    // function closeLoad() {
+    //     document.getElementById('').style.display = 'none';
+    // }
 </script>
