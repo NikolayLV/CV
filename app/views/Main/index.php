@@ -8,6 +8,8 @@
 	}
     ?>
 <?php $this->getPart('parts/header'); ?>
+<?php $this->getPart('parts/loading'); ?>
+
 <?php $this->getPart('parts/modal'); ?>
 
 <?php
@@ -27,26 +29,6 @@
 ?>
 
 
-<div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
-    <div class="wheel"></div>
-    <div class="hamster">
-        <div class="hamster__body">
-            <div class="hamster__head">
-                <div class="hamster__ear"></div>
-                <div class="hamster__eye"></div>
-                <div class="hamster__nose"></div>
-            </div>
-            <div class="hamster__limb hamster__limb--fr"></div>
-            <div class="hamster__limb hamster__limb--fl"></div>
-            <div class="hamster__limb hamster__limb--br"></div>
-            <div class="hamster__limb hamster__limb--bl"></div>
-            <div class="hamster__tail"></div>
-        </div>
-    </div>
-    <div class="spoke"></div>
-</div>
-
-
 <?php $this->getPart('parts/footer'); ?>
 <script>
     // Проверяем, нужно ли показать модальное окно
@@ -55,16 +37,12 @@
         document.getElementById('modal').classList.add('open');
     }
 
-    // function btnSubmit() {
-    //     document.getElementById('modal').classList.remove('open');
-    //     let LayoutCreative = document.getElementById('radio_creative');
-    //     let LayoutOfficial = document.getElementById('radio_official');
-    //     if (LayoutCreative.checked) {
-    //         document.getElementById('layout_creative').classList.add('show');
-    //     } else if (LayoutOfficial.checked) {
-    //         document.getElementById('layout_official').classList.add('show');
-    //     } else {
-    //         document.getElementById('layout_creative').classList.add('show');
-    //     }
-    // }
+    function btnSubmit() {
+        document.getElementById('modal').classList.remove('open');
+        document.getElementById('load').classList.add('open');
+        setTimeout(closeLoad, 5000);
+    }
+    function closeLoad() {
+        document.getElementById('load').classList.remove('open');
+    }
 </script>

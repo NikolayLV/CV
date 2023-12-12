@@ -20,16 +20,15 @@
 			</label>
 			<br/>
 			<label>
-				<input type="radio" name="languages" value="english" data-langcode='en'>
+				<input type="radio" name="languages" id="en" value="english">
 				English
 			</label>
 
 			<label>
-				<input type="radio" name="languages" value="german" data-langcode='de'>
+				<input type="radio" name="languages" id="de" value="german">
 				German
 			</label>
-			<input type="submit" value="Отправить">
+			<input type="submit" onclick="btnSubmit()" value="Отправить">
 		</form>
-		<button type="submit" onclick="btnSubmit()">Submit</button>
 	</div>
 </div>

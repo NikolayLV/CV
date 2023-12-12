@@ -236,10 +236,10 @@ h1, h2, h3, li, ul, a {
     width: 12em;
     height: 12em;
     font-size: 14px;
-    opacity: 0;
+    display: none;
 }
 .wheel-and-hamster.open {
-    opacity: 1;
+    display: block;
 }
 
 .wheel,
