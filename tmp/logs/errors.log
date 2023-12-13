@@ -454,3 +454,13 @@
 =================
 [2023-12-13 14:56:45] Текст ошибки: Undefined array key "layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 7
 =================
+[2023-12-13 18:41:33] Текст ошибки: require_once(0): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 2
+=================
+[2023-12-13 18:42:25] Текст ошибки: Call to undefined method wfm\View::loadTime() | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 2
+=================
+[2023-12-13 18:42:50] Текст ошибки: Call to undefined method wfm\View::loadTime() | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 5
+=================
+[2023-12-13 18:44:09] Текст ошибки: require_once(C:\OSPanel\domains\p100.sho\public): Failed to open stream: Permission denied | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 5
+=================
+[2023-12-13 18:45:07] Текст ошибки: require_once(C:\OSPanel\domains\p100.sho\public): Failed to open stream: Permission denied | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 5
+=================

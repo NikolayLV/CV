@@ -80,6 +80,10 @@ class View
         }
     }
 
+	public function loadTime($time = 3){
+		sleep($time);
+	}
+
 	public function getLayout($file, $data = null) {
 		if (is_array($data)) {
 			extract($data);
