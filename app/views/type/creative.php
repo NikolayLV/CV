@@ -123,7 +123,29 @@
         </div>
     </section>
     <section class="exp">
-
+        <div class="exp_left">
+            <h1 class="exp_h1"><?php __('exp'); ?></h1>
+            <p class="exp_p">
+				<?php __('exp_p'); ?>
+                <br/>
+            </p>
+            <p class="exp_p">
+				<?php __('exp_p2'); ?>
+                <br/>
+            </p>
+            <p class="exp_p">
+				<?php __('exp_p3'); ?>
+                <br/>
+            </p>
+            <p class="exp_p">
+				<?php __('exp_p4'); ?>
+                <br/>
+            </p>
+            <p class="exp_p">
+				<?php __('exp_p5'); ?>
+                <br/>
+            </p>
+        </div>
     </section>
 </section>
 

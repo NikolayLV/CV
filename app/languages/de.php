@@ -26,5 +26,12 @@ return [
 	'modal_official' => 'Offiziell',
 	'modal_btn' => 'Einreichen',
 
+	'exp' => 'EXPERIENCE',
+	'exp_p' => 'Restaurant activity - 7 M. ( 16/08/2021 - 24/02/2022) (Waiter/Barman - Restaurant «SHEF" ( Kviv)',
+	'exp_p2' => 'Advertising activity - 2 M. ( 05/06/2021 - 07/08/2021 ) (AquaPark "AquaLand" )',
+	'exp_p3' => 'Support - 7 M. ( 01/04/2022 - 01/11/2022) (Website building platform "UMI")',
+	'exp_p4' => 'QA - 7 M. ( 01/11/2022 - 14/05/2023) (Website building platform "UMI")',
+	'exp_p5' => 'FullStack Developer - 7 M. ( 15/05/2022 - nowadays)',
+
 	'tpl_error_404' => '404 - Seite nicht gefunden',
 ];
