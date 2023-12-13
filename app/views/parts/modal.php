@@ -8,14 +8,14 @@
 	<div class="modal_box">
 		<h1>Выбирете стиль сайта</h1>
 		<h3>Choose style of site</h3>
-		<form method="post" class="style_form">
+		<form method="GET" class="style_form" id="modal_form">
 			<label>
-				<input type="radio" name="options" value="creative">
+				<input type="radio" name="layout" value="creative" id="creative_radio">
 				Creative
 			</label>
             <br/>
 			<label>
-				<input type="radio" name="options" value="official">
+				<input type="radio" name="layout" value="official" id="official_radio">
 				Official
 			</label>
 			<br/>

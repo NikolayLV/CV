@@ -1,54 +1,43 @@
-<?php
+<?php if (isset($_SESSION['visited'])) {
+	sleep(2);
+    if ($_GET['layout'] == 'official') {
+        $this->getPart('parts/headerOfficial');
+        $this->getLayout('official');
+    } else {
+		$this->getPart('parts/headerCreative');
+		$this->getLayout('creative');
+    }
+}
+
 	if (!isset($_SESSION['visited'])) {
 		// Если куки не установлены, отправляем сценарий JavaScript
 		$this->getPart('parts/loading');
+		$this->getPart('parts/modal');
 		echo '<script type="text/javascript">let showModal = true;</script>';
 
 		// Устанавливаем куки, чтобы не показывать модальное окно снова
 		$_SESSION['visited'] = true;
 	}
+
+	$this->getPart('parts/footer');
     ?>
-<?php if ($_SESSION['visited'] == true) {
-	$this->getPart('parts/header');
-}
-     ?>
 
-<?php $this->getPart('parts/modal'); ?>
-
-<?php
-    $isCreative = null;
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		if (isset($_POST['options'])) {
-			$selectedOption = $_POST['options'];
-			if ($selectedOption == 'official') {
-				sleep(3);
-				$isCreative = false;
-			} else if ($selectedOption == 'creative') {
-				sleep(3);
-				$isCreative = true;
-            }
-        }
-	}
-
-    if ($isCreative) {
-		$this->getLayout('creative');
-    } else {
-		$this->getLayout('official');
-    }
-?>
-
-<?php $this->getPart('parts/footer'); ?>
 <script>
-    // Проверяем, нужно ли показать модальное окно
     if (typeof showModal !== 'undefined' && showModal) {
-        // Ваш код для отображения модального окна
         document.getElementById('modal').classList.add('open');
     }
 
     function btnSubmit() {
         document.getElementById('modal').classList.remove('open');
+        let modal_form = document.getElementById('creative_radio');
+
+        if (modal_form) {
+            document.getElementById('creative').style.display = 'block';
+            document.getElementById('official').style.display = 'none';
+        } else {
+            document.getElementById('official').style.display = 'block';
+            document.getElementById('creative').style.display = 'none';
+        }
     }
-    // function closeLoad() {
-    //     document.getElementById('').style.display = 'none';
-    // }
 </script>
+
