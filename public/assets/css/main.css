@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=League+Spartan:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&display=swap');
 body {
     background-color: white;
 }
@@ -74,9 +76,12 @@ header {
     font-size: 24px;
     font-weight: 500;
     line-height: 45px;
-    letter-spacing: 0.1em;
     text-align: center;
-
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header_section_mid {
     padding: 40px;
@@ -96,7 +101,7 @@ header {
     display: flex;
     justify-content: end;
     flex-grow: 0.33;
-    padding: 40px;
+    padding: 60px;
 }
 
 .header_img {
@@ -113,23 +118,74 @@ h1, h2, h3, li, ul, a {
 .dropdown-menu {
     min-width: 0rem;
     transform: translate(-25px, 28px)!important;
+    margin: 15px 5px 0 15px!important;
 }
 
 .about {
     display: flex;
+    justify-content: space-around;
 }
 .about_img {
     width: 700px;
     height: 930px;
+}
+.about_h1 {
+    font-family: Barrio, serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.about_p {
+    font-family: Commissioner, serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #333333;
+    margin: 20px;
+    padding: 20px;
 }
 .skills {
     background-image: url("https://p100.sho/assets/img/skills.png");
     background-repeat: no-repeat;
     max-height: 2200px;
     display: flex;
+    justify-content: space-around;
 }
 .skills_h1{
+    font-family: Barrio, serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 
+}
+.skills_right {
+    margin-top: 250px;
+    margin-right: 30px;
+}
+.skills_info {
+
+}
+.skills_p {
+    font-family: Commissioner, serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-align: right;
+    color: #333333;
+    margin: 20px;
+    padding: 20px;
 }
 .skills_left {
     display: flex;
@@ -145,12 +201,6 @@ h1, h2, h3, li, ul, a {
 }
 .img_right {
     display: block;
-}
-.skills_right {
-    margin-top: 200px;
-    margin-left: auto;
-}
-.skills_info {
 }
 .skills_img {
     width: 100px;
@@ -508,4 +558,196 @@ h1, h2, h3, li, ul, a {
     to {
         transform: rotate(-1turn);
     }
+}
+
+
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 170px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(168, 38, 255);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(140, 32, 212);
+    transition-duration: .3s;
+    margin-right: 40px;
+}
+
+.svg {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+}
+
+.Btn:hover {
+    color: transparent;
+}
+
+.Btn:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+}
+
+.Btn:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+}
+
+
+.form {
+    --text: #414856;
+    --radio: #7C96B2;
+    --radio-checked: #4F29F0;
+    --radio-size: 20px;
+    --width: 150px;
+    --height: 240px;
+    --border-radius: 10px;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    color: var(--text);
+    position: relative;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: auto var(--radio-size);
+    align-items: center;
+}
+
+.form label {
+    cursor: pointer;
+}
+
+.form input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    height: var(--radio-size);
+    width: var(--radio-size);
+    outline: none;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid var(--radio);
+    background: transparent;
+    border-radius: 50%;
+    display: grid;
+    justify-self: end;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border .5s ease;
+}
+
+.form input[type="radio"]::before, .form input[type="radio"]::after {
+    content: "";
+    display: flex;
+    justify-self: center;
+    border-radius: 50%;
+}
+
+.form input[type="radio"]::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: var(--opacity, 1);
+}
+
+.form input[type="radio"]::after {
+    position: relative;
+    width: calc(100% /2);
+    height: calc(100% /2);
+    background: var(--radio-checked);
+    top: var(--y, 100%);
+    transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+}
+
+.form input[type="radio"]:checked {
+    --radio: var(--radio-checked);
+}
+
+.form input[type="radio"]:checked::after {
+    --y: 0%;
+    animation: stretch-animate .3s ease-out .17s;
+}
+
+.form input[type="radio"]:checked::before {
+    --opacity: 0;
+}
+
+.form input[type="radio"]:checked ~ input[type="radio"]::after {
+    --y: -100%;
+}
+
+.form input[type="radio"]:not(:checked)::before {
+    --opacity: 1;
+    transition: opacity 0s linear .5s;
+}
+
+@keyframes stretch-animate {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    28% {
+        transform: scale(1.15, 0.85);
+    }
+
+    50% {
+        transform: scale(0.9, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.socials {
+    position: fixed;
+    display: block;
+    left: 20px;
+    bottom: 20px;
+}
+
+.socials > a {
+    display: block;
+    width: 30px;
+    opacity: .2;
+    transform: scale(var(--scale, 0.8));
+    transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
+}
+
+.socials > a:hover {
+    --scale: 1;
+}
+
+.button_modal {
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #4F29F0FF;
+    border: 1px solid #4724d9;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #2e11c0;
+    transition: all .1s;
+    margin-top: 40px;
+}
+
+.button_modal:active {
+    box-shadow: 0px 2px 0px #3213b4;
+    position: relative;
+    top: 2px;
 }

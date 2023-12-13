@@ -1,6 +1,6 @@
 <?php
 
 ?>
-<section class="official" id="official">
+<section class="official">
     <h1>Official type</h1>
 </section>

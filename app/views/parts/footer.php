@@ -12,4 +12,17 @@
 	<script src="<?= PATH ?>/assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="<?= PATH ?>/assets/js/sweetalert2.js"></script>
 	<script src="<?= PATH ?>/assets/js/main.js"></script>
+    <script>
+        if (typeof showModal !== 'undefined' && showModal) {
+            document.getElementById('modal').classList.add('open');
+        }
+
+        function chooseStyle() {
+            document.getElementById('modal').classList.add('open');
+        }
+
+        function closePopup() {
+            document.getElementById('modal').classList.remove('open');
+        }
+    </script>
 </footer>
