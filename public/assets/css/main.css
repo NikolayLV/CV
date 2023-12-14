@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=League+Spartan:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&display=swap');
-body {
-    background-color: white;
-}
 
 header {
     margin: 0;
@@ -211,7 +208,7 @@ h1, h2, h3, li, ul, a {
     height: 100px;
 }
 .exp {
-    height: 1100px;
+    height: auto;
 }
 .exp_left {
     width: 70%;
@@ -223,7 +220,7 @@ h1, h2, h3, li, ul, a {
     line-height: 50px;
     letter-spacing: 0.05em;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0 0 40px;
 }
 .exp_p {
     font-family: Commissioner, serif;
@@ -236,6 +233,13 @@ h1, h2, h3, li, ul, a {
     margin: 20px;
     padding: 20px;
 }
+
+
+
+
+
+
+/*Модальное окно*/
 .modal {
     position: fixed;
     left: 0;
@@ -267,6 +271,8 @@ h1, h2, h3, li, ul, a {
 .modal.open .modal_box {
     transform: scale(1);
 }
+
+/*Инпуты радио при выборе стиля*/
 .radio-inputs {
     position: relative;
     display: flex;
@@ -306,6 +312,7 @@ h1, h2, h3, li, ul, a {
     font-weight: 600;
 }
 
+/*Загрука*/
 .load {
     display: grid;
     align-items: center;
@@ -587,7 +594,7 @@ h1, h2, h3, li, ul, a {
     }
 }
 
-
+/*Кнопка в header*/
 .Btn {
     position: relative;
     display: flex;
@@ -777,4 +784,81 @@ h1, h2, h3, li, ul, a {
     box-shadow: 0px 2px 0px #3213b4;
     position: relative;
     top: 2px;
+}
+
+
+.contacts_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    height: auto;
+    width: 480px;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+}
+
+.contacts_title {
+    color: #264143;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.contacts_sub_title {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.contacts_form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.contacts_form_style {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.contacts_form_style:focus, .contacts_btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+}
+
+.contacts_btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 290px;
+    font-size: 15px;
+    background: #DE5499;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+}
+
+.contacts_btn:hover {
+    opacity: .9;
+}
+
+.contacts_link {
+    font-weight: 800;
+    color: #264143;
+    padding: 5px;
 }

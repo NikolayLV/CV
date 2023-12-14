@@ -147,5 +147,34 @@
             </p>
         </div>
     </section>
+    <section class="contacts">
+        <div class="contacts_container">
+            <div class="form_area">
+                <p class="contacts_title">Contacts</p>
+                <form action="">
+                    <div class="contacts_form_group">
+                        <label class="contacts_sub_title" for="name">Name</label>
+                        <input placeholder="Enter your full name" class="contacts_form_style" type="text">
+                    </div>
+                    <div class="contacts_form_group">
+                        <label class="contacts_sub_title" for="email">Email</label>
+                        <input placeholder="Enter your email" id="email" class="contacts_form_style" type="email">
+                    </div>
+                    <div class="contacts_form_group">
+                        <label class="contacts_sub_title" for="password">Phone</label>
+                        <input placeholder="Enter your password" id="password" class="contacts_form_style" type="text">
+                    </div>
+                    <div class="contacts_form_group">
+                        <label class="contacts_sub_title" for="password">Message</label>
+                        <textarea name="" id="" class="contacts_form_style" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="contacts_btn">Submit</button>
+                        <p>Have an Account? <a class="contacts_link" href="">Login Here!</a></p><a class="link" href="">
+                        </a></div><a class="contacts_link" href="">
+
+                    </a></form></div><a class="contacts_link" href="">
+            </a></div>
+    </section>
 </section>
 

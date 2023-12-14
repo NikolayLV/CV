@@ -464,3 +464,5 @@
 =================
 [2023-12-13 18:45:07] Текст ошибки: require_once(C:\OSPanel\domains\p100.sho\public): Failed to open stream: Permission denied | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 5
 =================
+[2023-12-14 15:48:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
