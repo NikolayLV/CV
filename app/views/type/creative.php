@@ -151,29 +151,33 @@
         <div class="contacts_container">
             <div class="form_area">
                 <p class="contacts_title">Contacts</p>
-                <form action="">
+                <form action="" method="post" class="contact_form">
                     <div class="contacts_form_group">
                         <label class="contacts_sub_title" for="name">Name</label>
-                        <input placeholder="Enter your full name" class="contacts_form_style" type="text">
+                        <input placeholder="<?php __('contacts_input_name'); ?>" name="name" id="name" class="contacts_form_style" type="text" required>
                     </div>
                     <div class="contacts_form_group">
                         <label class="contacts_sub_title" for="email">Email</label>
-                        <input placeholder="Enter your email" id="email" class="contacts_form_style" type="email">
+                        <input placeholder="<?php __('contacts_input_email'); ?>" name="email" id="email" class="contacts_form_style" type="email" required>
                     </div>
                     <div class="contacts_form_group">
                         <label class="contacts_sub_title" for="password">Phone</label>
-                        <input placeholder="Enter your password" id="password" class="contacts_form_style" type="text">
+                        <input placeholder="<?php __('contacts_input_phone'); ?>" name="phone" id="phone" class="contacts_form_style" type="text" required>
                     </div>
                     <div class="contacts_form_group">
                         <label class="contacts_sub_title" for="password">Message</label>
-                        <textarea name="" id="" class="contacts_form_style" cols="30" rows="10"></textarea>
+                        <textarea placeholder="<?php __('contacts_input_text'); ?>" name="text" id="text" class="contacts_form_style" cols="30" rows="10" required></textarea>
                     </div>
                     <div>
-                        <button class="contacts_btn">Submit</button>
-                        <p>Have an Account? <a class="contacts_link" href="">Login Here!</a></p><a class="link" href="">
-                        </a></div><a class="contacts_link" href="">
+                        <button onclick="sendContacts()" class="contacts_btn"><?php __('contacts_input_text'); ?></button>
 
-                    </a></form></div><a class="contacts_link" href="">
+                </form>
+				<?php
+					if (isset($_SESSION['contacts_data'])) {
+						unset($_SESSION['contacts_data']);
+					}
+				?>
+            </div><a class="contacts_link" href="">
             </a></div>
     </section>
 </section>

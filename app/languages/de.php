@@ -33,5 +33,14 @@ return [
 	'exp_p4' => 'QA - 7 M. ( 01/11/2022 - 14/05/2023) (Website building platform "UMI")',
 	'exp_p5' => 'FullStack Developer - 7 M. ( 15/05/2022 - nowadays)',
 
+	'contacts_h1' => 'KONTAKTIEREN SIE UNS BEI FRAGEN',
+	'contacts_p' => 'Wir freuen uns immer über Kooperationen, interessante Projekte und Feedback unserer Kunden.',
+	'contacts_input_name' => 'Ihr Name',
+	'contacts_input_email' => 'Deine E-Mail',
+	'contacts_input_phone' => 'Telefon',
+	'contacts_input_text' => 'Text',
+	'contacts_checkbox' => 'Genehmigen Sie die Verarbeitung personenbezogener Daten',
+	'contacts_button' => 'Schicken',
+
 	'tpl_error_404' => '404 - Seite nicht gefunden',
 ];

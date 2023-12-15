@@ -219,7 +219,7 @@ h1, h2, h3, li, ul, a {
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.05em;
-    text-align: center;
+    text-align: start;
     margin: 50px 0 0 40px;
 }
 .exp_p {
