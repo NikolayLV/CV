@@ -474,3 +474,7 @@
 =================
 [2023-12-14 17:31:08] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | Файл: C:\OSPanel\domains\p100.sho\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
 =================
+[2023-12-17 16:08:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2023-12-17 16:32:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================

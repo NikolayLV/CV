@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'admin_email' => 'admin@p100.sho',
-    'site_name' => 'p100',
+    'admin_email' => 'admin@nikolaylv.com',
+    'site_name' => 'CV',
     'pagination' => 3,
 
     'smtp_host' => 'smtp.mailtrap.io',
