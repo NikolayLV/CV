@@ -6,6 +6,11 @@
         <div class="main_block">
             <img class="main_photo" src="<?php WWW ?>/assets/img/main.png" alt="">
         </div>
+        <div class="main_btn">
+            <button class="Btn2" onclick=""><?php __('main_btn'); ?>
+            </button>
+        </div>
+
     </section>
 
         <p class="quote_p"><?php __('quote'); ?></p>
@@ -35,7 +40,7 @@
             </p>
         </div>
         <div class="about_right">
-            <img class="about_img" src="<?php WWW ?>/assets/img/about.png" alt="">
+            <img class="about_img" src="<?php WWW ?>/assets/img/about2.png" alt="">
         </div>
     </section>
     <section class="skills">

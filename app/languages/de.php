@@ -6,6 +6,8 @@ return [
 	'header_exp' => 'Erfahrung',
 	'header_style' => 'Wählen Sie Stil',
 
+	'main_btn' => 'CV herunterladen',
+
 	'quote' => 'TUN SIE HEUTE, WAS ANDERE NICHT WOLLEN – MORGEN WERDEN SIE SO LEBEN, WAS ANDERE NICHT KÖNNEN',
 
 	'about' => 'Über mich',

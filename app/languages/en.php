@@ -6,6 +6,8 @@ return [
 	'header_exp' => 'Experience',
 	'header_style' => 'Choose style',
 
+	'main_btn' => 'Donwload CV',
+
 	'quote' => 'DO TODAY WHAT OTHER DO NOT WANT - TOMORROW YOU WILL LIVE IN A WAY THAT OTHERS CANNOT',
 
 	'about' => 'About me',
