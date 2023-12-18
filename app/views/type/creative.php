@@ -154,8 +154,10 @@
     </section>
     <section class="contacts">
         <div class="contacts_container">
+
+
+
             <div class="form_area">
-                <p class="contacts_title">Contacts</p>
                 <form action="" method="post" class="contact_form">
                     <div class="contacts_form_group">
                         <label class="contacts_sub_title" for="name">Name</label>
@@ -182,8 +184,32 @@
 						unset($_SESSION['contacts_data']);
 					}
 				?>
-            </div><a class="contacts_link" href="">
-            </a></div>
+            </div>
+
+        </div>
+
+        <div class="contacts_right">
+            <h1 class="contacts_h1"><?php __('contacts_h1')?></h1>
+
+            <div class="contacts_info">
+                <img class="contacts_img" src="<?php PATH ?>/assets/img/contacts1.png" alt="">
+                <a class="contacts_a" href="https://www.instagram.com/nikolaydlv/">@Nikolaydlv</a>
+            </div>
+            <div class="contacts_info">
+                <img class="contacts_img" src="<?php PATH ?>/assets/img/contacts2.png" alt="">
+                <a class="contacts_a" href="https://t.me/nikolaydlv">@Nikolaydlv</a>
+            </div>
+            <div class="contacts_info">
+                <img class="contacts_img" src="<?php PATH ?>/assets/img/contacts3.png" alt="">
+                <a class="contacts_a" href="https://github.com/NikolayLV">@NikolayLV</a>
+            </div>
+            <div class="contacts_info">
+                <img class="contacts_img" src="<?php PATH ?>/assets/img/contacts4.png" alt="">
+                <a class="contacts_a" href="mailto:nikolayd2002@gmail.com">nikolayd2002@gmail.com</a>
+            </div>
+        </div>
+        </div>
+
     </section>
 </section>
 

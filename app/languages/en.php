@@ -35,7 +35,7 @@ return [
 	'exp_p4' => 'QA - 7 M. ( 01/11/2022 - 14/05/2023) (Website building platform "UMI")',
 	'exp_p5' => 'FullStack Developer - 7 M. ( 15/05/2022 - nowadays)',
 
-	'contacts_h1' => 'CONTACT US FOR ANY QUESTIONS',
+	'contacts_h1' => 'Let\'s <br/>talk!',
 	'contacts_p' => 'We are always glad for collaborations, interesting projects and feedback from our clients.',
 	'contacts_input_name' => 'Your name',
 	'contacts_input_email' => 'Your E-Mail',
