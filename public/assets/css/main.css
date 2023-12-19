@@ -184,6 +184,9 @@ h1, h2, h3, li, ul, a {
 .skills_info {
 
 }
+.skills_img_mob {
+    display: none;
+}
 .skills_p {
     font-family: Commissioner, serif;
     font-size: 25px;
@@ -999,7 +1002,7 @@ h1, h2, h3, li, ul, a {
 
     .about {
         display: block;
-        margin-bottom: 150px;
+        margin-bottom: 200px;
     }
 
     .about_h1 {
@@ -1041,14 +1044,31 @@ h1, h2, h3, li, ul, a {
     }
 
     .skills_left {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
         margin: 0;
+    }
+
+    .skills_div_img img:nth-child(n+6) {
+        display: none;
     }
 
     .skills_div_img {
         padding: 10px;
         margin-left: 50px;
+    }
+
+    .skills_img_mob {
+        display: grid;
+        grid-template-columns: 75px 75px 75px;
+        margin-top: 50px;
+    }
+
+    .img_left {
+        display: none;
+    }
+
+    .img_right {
+        display: none;
     }
 
     .skills_h1 {
