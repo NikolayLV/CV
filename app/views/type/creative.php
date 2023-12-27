@@ -10,7 +10,6 @@
             <button class="Btn2" onclick=""><?php __('main_btn'); ?>
             </button>
         </div>
-
     </section>
 
         <p class="quote_p"><?php __('quote'); ?></p>
