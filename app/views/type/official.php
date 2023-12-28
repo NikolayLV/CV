@@ -1,6 +1,8 @@
 <?php
 
 ?>
-<section class="official">
+<body class="body_official">
     <h1>Official type</h1>
-</section>
+</body>
+
+

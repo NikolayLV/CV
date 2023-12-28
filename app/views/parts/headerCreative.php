@@ -4,7 +4,6 @@
 
 	/** @var $this View */
 ?>
-<body>
 <header>
 	<div class="header_section">
 		<div class="header_section_left">

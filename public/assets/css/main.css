@@ -1163,3 +1163,83 @@ h1, h2, h3, li, ul, a {
         height: 25px;
     }
 }
+
+
+
+/*Стили раздела officia*/
+
+.body_official {
+    background-color: black;
+}
+
+.header_official {
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header_section_o {
+    display: flex;
+}
+.header_section_left_o {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.33;
+}
+.li_page_o {
+    color: #ffffff;
+    margin: 18px 36px 0 30px;
+}
+.a_page_o {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.25em;
+    text-align: center;
+
+}
+.li_item_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 18px 80px 0 10px;
+}
+.li_lang_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 18px;
+}
+
+.header_section_mid_o {
+    padding: 30px;
+    display: flex;
+}
+
+.header_logo_o {
+    width: 172px;
+    height: 50px;
+}
+.a_logo_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+}
+.header_section_right_o {
+    display: flex;
+    justify-content: end;
+    flex-grow: 0.33;
+    padding: 45px;
+}
+
+.header_img_o {
+    height: 35px;
+    width: 35px;
+}

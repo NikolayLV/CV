@@ -1,7 +1,7 @@
 <?php
 
 ?>
-<section class="creative" id="creative">
+<body class="body_creative">
     <section class="main">
         <div class="main_block">
             <img class="main_photo" src="<?php WWW ?>/assets/img/main.png" alt="">
@@ -12,7 +12,7 @@
         </div>
     </section>
 
-        <p class="quote_p"><?php __('quote'); ?></p>
+    <p class="quote_p"><?php __('quote'); ?></p>
 
     <section class="about">
         <div class="about_left">
@@ -269,5 +269,6 @@
         </div>
 
     </section>
-</section>
+</body>
+
 
