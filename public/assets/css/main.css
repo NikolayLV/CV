@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=League+Spartan:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&family=Marcellus&display=swap');
 
 header {
     margin: 0;
@@ -1251,4 +1252,92 @@ header {
 .header_img_o {
     height: 35px;
     width: 35px;
+}
+
+.about_o {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.about_block_o {
+    padding: 40px;
+}
+
+.about_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.about_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.skills_o {
+    background-color: black;
+    align-items: end;
+}
+
+.skills_block_o {
+    padding: 40px;
+}
+
+.skills_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+}
+
+.skills_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    margin-right: 140px;
+}
+
+.exp_o {
+    background-color: white;
+    align-items: start;
+}
+
+.exp_block_o {
+    padding: 40px;
+}
+
+.exp_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.exp_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
 }
