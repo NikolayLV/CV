@@ -14,6 +14,15 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="<?= PATH ?>/assets/img/favicon32.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VQD6GTMXH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4VQD6GTMXH');
+    </script>
 	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&display=swap" rel="stylesheet">
 	<?= $this->getMeta() ?>
 </head>
