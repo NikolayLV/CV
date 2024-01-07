@@ -2,6 +2,7 @@
 	namespace app\controllers;
 
 	if (isset($_SESSION['visited'])) {
+		sleep(3);
     if (!isset($_GET['layout'])) {
 		$_GET['layout'] = 'creative';
     }
@@ -13,16 +14,13 @@
 		$this->getLayout('creative');
     }
 }
-	if (!isset($_SESSION['load'])) {
-		sleep(3);
-	}
+
 	if (!isset($_SESSION['visited'])) {
 		// Если куки не установлены, отправляем сценарий JavaScript
 		$this->getPart('parts/loading');
 		echo '<script type="text/javascript">let showModal = true;</script>';
 		// Устанавливаем куки, чтобы не показывать модальное окно снова
 		$_SESSION['visited'] = true;
-		$_SESSION['load'] = true;
 	}
 	$this->getPart('parts/modal');
 	$this->getPart('parts/footer');
