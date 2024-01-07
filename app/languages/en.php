@@ -48,5 +48,5 @@ return [
 
 	'main_index_meta_title' => 'Nikolay Diatlov',
 	'main_index_meta_description' => 'I am an experienced developer and tester with a focus on web technologies. My skills include creating dynamic and intuitive websites. I am currently working as a tester, aiming to become a Full Stack Developer. Explore my projects and learn more about my experience in web development',
-	'main_index_meta_keywords' => 'Website development, Software testing, Full Stack Developer, HTML, CSS, JavaScript, Experienced developer, Web development projects, Web Application Testing, Startups and Entrepreneurship, Dynamic web technologies, Plans for a career in Full Stack development',
+	'main_index_meta_keywords' => 'Website development, Mykola Diatlov, Nikolay Diatlov, developer, Software testing, Full Stack Developer, HTML, CSS, JavaScript, Experienced developer, Web development projects, Web Application Testing, Startups and Entrepreneurship, Dynamic web technologies, Plans for a career in Full Stack development',
 ];
