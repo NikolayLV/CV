@@ -48,7 +48,15 @@ header {
     line-height: 45px;
     letter-spacing: 0.25em;
     text-align: center;
+}
 
+.dropdown-toggle_o {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    color: white;
 }
 .main_block {
     display: flex;
@@ -1166,7 +1174,7 @@ h1, h2, h3, li, ul, a {
 
 
 
-/*Стили раздела officia*/
+/* Стили раздела officia */
 
 .body_official {
     background-color: black;
@@ -1188,6 +1196,7 @@ header {
     display: flex;
     justify-content: center;
     flex-grow: 0.33;
+    align-items: center;
 }
 .li_page_o {
     color: #ffffff;

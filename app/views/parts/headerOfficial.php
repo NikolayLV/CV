@@ -22,7 +22,7 @@
             </button>
 
 
-            <a class='a_page_o' href=""><?php new \app\widgets\language\Language() ?></a>
+            <a class='a_page_o' href=""><?php new \app\widgets\language\LanguageO() ?></a>
         </ul>
     </div>
 </header>
