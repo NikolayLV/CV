@@ -2,7 +2,7 @@
 	namespace app\controllers;
 
 	if (isset($_SESSION['visited'])) {
-	sleep(3);
+//	sleep(3);
     if (!isset($_GET['layout'])) {
 		$_GET['layout'] = 'creative';
     }
