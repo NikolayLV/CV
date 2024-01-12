@@ -61,6 +61,9 @@
         <p class="exp_p_o">
 			<?php __('exp_p4'); ?>
         </p>
+        <p class="exp_p_o">
+			<?php __('exp_p5'); ?>
+        </p>
     </div>
 </section>
 <section class="contacts_o">
@@ -111,7 +114,7 @@
 					unset($_SESSION['contacts_data']);
 				}
 			?>
-        </div
+        </div>
     </div>
 </section>
 </body>
