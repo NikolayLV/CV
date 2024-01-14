@@ -137,7 +137,7 @@
     padding: 5px;
 }
 .skills {
-    background-image: url("https://p100.sho/assets/img/skills.png");
+    background-image: url("https://p100.sho/assets/img/skillsNew.png");
     background-repeat: no-repeat;
     max-height: 2200px;
     display: flex;
@@ -160,7 +160,7 @@
 
 }
 .skills_right {
-    margin-top: 250px;
+    margin-top: 100px;
     margin-right: 100px;
 }
 .skills_info {
@@ -182,11 +182,11 @@
 }
 .skills_left {
     display: flex;
-    margin-top: 200px;
+    margin-top: 75px;
     margin-bottom: 200px;
 }
 .skills_div_img {
-    padding: 40px;
+    padding: 20px;
     margin-left: 100px;
 }
 .img_left {
@@ -196,8 +196,8 @@
     display: block;
 }
 .skills_img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 .exp {
     height: auto;
@@ -370,4 +370,223 @@
     text-align: left;
     margin-left: 50px;
 
+}
+
+
+/*Адаптивность для мобильных устройств*/
+
+@media screen and (max-width: 440px) {
+    .header_section {
+        display: block;
+
+    }
+
+    .header_section_mid {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .li_item {
+        margin: auto;
+    }
+
+    .a_page {
+        font-family: Mallanna, serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .main_photo {
+        width: 364px;
+        height: 191px;
+    }
+
+    .main_btn {
+        display: none;
+    }
+
+    .quote_p {
+        font-family: Basic, serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .about {
+        display: block;
+        margin-bottom: 200px;
+    }
+
+    .about_h1 {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    .about_p {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 25px;
+        padding: 0;
+    }
+
+    .modal {
+        height: 70vh;
+    }
+
+    .about_right {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skills {
+        background-image: url("https://p100.sho/assets/img/skillsMob.png");
+        background-size: 480px 360px;
+    }
+
+    .skills_right {
+        margin: 0;
+    }
+
+    .skills_left {
+        display: flex;
+        margin: 0;
+    }
+
+    .skills_div_img img:nth-child(n+6) {
+        display: none;
+    }
+
+    .skills_div_img {
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+    .skills_img_mob {
+        display: grid;
+        grid-template-columns: 75px 75px 75px;
+        margin-top: 50px;
+    }
+
+    .img_left {
+        display: none;
+    }
+
+    .img_right {
+        display: none;
+    }
+
+    .skills_h1 {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: right;
+    }
+
+    .skills_p {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .skills_img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .exp_h1 {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin: 0;
+    }
+
+    .exp_p {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts_container {
+        display: block;
+    }
+
+    .contacts_info {
+        margin-left: 75px;
+    }
+
+    .contacts_h1 {
+        font-family: Barrio, serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin: 50px;
+        padding: 0;
+    }
+
+    .contacts_a {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 25px;
+        padding: 0;
+    }
+
+    .contacts_form_style {
+        width: 240px;
+        height: 36px;
+    }
+
+    .contacts_btn {
+        width: 270px;
+        padding: 5px;
+    }
+
+    .contacts_img {
+        width: 25px;
+        height: 25px;
+    }
 }

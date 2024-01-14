@@ -267,3 +267,223 @@ header {
 .contacts_btn:hover {
     opacity: .9;
 }
+
+
+
+
+/*Адаптивность для мобильных устройств*/
+
+@media screen and (max-width: 440px) {
+    .header_section_o {
+        display: block;
+
+    }
+
+    .header_section_mid_o {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .li_item_o {
+        margin: auto;
+    }
+
+    .a_page_o {
+        font-family: Mallanna, serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .main_photo_o {
+        width: 364px;
+        height: 191px;
+    }
+
+    .main_btn_o {
+        display: none;
+    }
+
+    .quote_p_o {
+        font-family: Basic, serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .about_o {
+        display: block;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    .about_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: left;
+    }
+
+    .about_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0;
+    }
+
+    .modal_o {
+        height: 70vh;
+    }
+
+    .about_right_o {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_block_o {
+        padding: 20px;
+    }
+
+    .about_img_o {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skills_right_o {
+        margin: 0;
+    }
+
+    .skills_left_o {
+        display: flex;
+        margin: 0;
+    }
+
+    .skills_div_img img:nth-child(n+6) {
+        display: none;
+    }
+
+    .skills_div_img_o {
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+    .skills_img_mob_o {
+        display: grid;
+        grid-template-columns: 75px 75px 75px;
+        margin-top: 50px;
+    }
+
+    .img_left_o {
+        display: none;
+    }
+
+    .img_right_o {
+        display: none;
+    }
+
+    .skills_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: right;
+    }
+
+    .skills_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .skills_img_o {
+        width: 30px;
+        height: 30px;
+    }
+
+    .exp_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin: 0;
+    }
+
+    .exp_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts_container_o {
+        display: block;
+    }
+
+    .contacts_info_o {
+        margin-left: 75px;
+    }
+
+    .contacts_h1_o {
+        font-family: Barrio, serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin: 50px;
+        padding: 0;
+        color: white;
+    }
+
+    .contacts_a_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0;
+        color: white;
+    }
+
+    .contacts_form_style_o {
+        width: 240px;
+        height: 36px;
+    }
+
+    .contacts_btn_o {
+        width: 270px;
+        padding: 5px;
+    }
+
+    .contacts_img_o {
+        width: 25px;
+        height: 25px;
+    }
+}

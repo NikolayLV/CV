@@ -69,9 +69,6 @@
                 <div class="skills_div_img">
                     <img class="skills_img" src="<?php WWW ?>/assets/img/linux.svg" alt="">
                 </div>
-                <div class="skills_div_img">
-                    <img class="skills_img" src="<?php WWW ?>/assets/img/apache.svg" alt="">
-                </div>
             </div>
             <div class="img_right">
                 <div class="skills_div_img">
@@ -97,9 +94,6 @@
                 </div>
                 <div class="skills_div_img">
                     <img class="skills_img" src="<?php WWW ?>/assets/img/jetbrains.svg" alt="">
-                </div>
-                <div class="skills_div_img">
-                    <img class="skills_img" src="<?php WWW ?>/assets/img/photoshop.svg" alt="">
                 </div>
             </div>
 
@@ -148,15 +142,6 @@
                 </div>
                 <div class="skills_div_img">
                     <img class="skills_img" src="<?php WWW ?>/assets/img/bootstrap.svg" alt="">
-                </div>
-                <div class="skills_div_img">
-                    <img class="skills_img" src="<?php WWW ?>/assets/img/figma.svg" alt="">
-                </div>
-                <div class="skills_div_img">
-                    <img class="skills_img" src="<?php WWW ?>/assets/img/jetbrains.svg" alt="">
-                </div>
-                <div class="skills_div_img">
-                    <img class="skills_img" src="<?php WWW ?>/assets/img/photoshop.svg" alt="">
                 </div>
             </div>
 
