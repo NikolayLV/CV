@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=League+Spartan:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Commissioner:wght@300&family=League+Spartan:wght@300;500&family=Marcellus&display=swap');
+
+
+/* Стили раздела officia */
+
+.body_official {
+    background-color: black;
+}
+
+.header_official {
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header_section_o {
+    display: flex;
+}
+.header_section_left_o {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.33;
+    align-items: center;
+}
+.li_page_o {
+    color: #ffffff;
+    margin: 18px 36px 0 30px;
+}
+.a_page_o {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.25em;
+    text-align: center;
+
+}
+.li_item_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 18px 80px 0 10px;
+}
+.li_lang_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 18px;
+}
+
+.header_section_mid_o {
+    padding: 30px;
+    display: flex;
+}
+
+.header_logo_o {
+    width: 172px;
+    height: 50px;
+}
+.a_logo_o {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+}
+.header_section_right_o {
+    display: flex;
+    justify-content: end;
+    flex-grow: 0.33;
+    padding: 45px;
+}
+
+.header_img_o {
+    height: 35px;
+    width: 35px;
+}
+
+.about_o {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.about_block_o {
+    padding: 40px;
+}
+
+.about_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.about_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.skills_o {
+    background-color: black;
+    align-items: end;
+}
+
+.skills_block_o {
+    padding: 40px;
+}
+
+.skills_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+}
+
+.skills_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    margin-right: 140px;
+}
+
+.exp_o {
+    background-color: white;
+    align-items: start;
+}
+
+.exp_block_o {
+    padding: 40px;
+}
+
+.exp_h1_o {
+    font-family: Marcellus, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.exp_p_o {
+    font-family: Commissioner, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.contacts_left_o {
+    margin-top: 50px;
+}
+
+.contacts_h1_o {
+    font-family: Barrio, serif;
+    font-size: 125px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: 0.05em;
+    text-align: right;
+}
+
+.contacts_info_o {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contacts_img_o {
+    width: 55px;
+    height: 55px;
+}
+
+.contacts_a_o {
+    font-family: Commissioner, serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.contacts_container_o {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_area_o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 150px;
+}
+
+.contacts_title_o {
+    color: #264143;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.contacts_sub_title_o {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.contacts_form_group_o {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.contacts_form_style_o {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #9F4CF3;
+    width: 290px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.contacts_form_style_o:focus, .contacts_btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+}
+
+.contacts_btn {
+    padding: 10px;
+    color: white;
+    margin: 25px 10px;
+    width: 290px;
+    font-size: 15px;
+    background: #9F4CF3;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #2d0846;
+}
+
+.contacts_btn:hover {
+    opacity: .9;
+}
