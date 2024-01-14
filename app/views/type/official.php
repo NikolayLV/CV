@@ -5,7 +5,7 @@
 <section class="about_o">
     <div class="about_block_o">
         <h1 class="about_h1_o">
-			<?php __('about'); ?>
+			<?php __('about_o'); ?>
         </h1>
         <p class="about_p_o">
 			<?php __('about_p'); ?>
@@ -28,7 +28,7 @@
 <section class="skills_o">
     <div class="skills_block_o">
         <h1 class="skills_h1_o">
-			<?php __('skills'); ?>
+			<?php __('skills_o'); ?>
         </h1>
         <p class="skills_p_o">
 			<?php __('skills_p'); ?>
@@ -47,7 +47,7 @@
 <section class="exp_o">
     <div class="exp_block_o">
         <h1 class="exp_h1_o">
-			<?php __('exp'); ?>
+			<?php __('exp_o'); ?>
         </h1>
         <p class="exp_p_o">
 			<?php __('exp_p'); ?>
@@ -68,7 +68,7 @@
 </section>
 <section class="contacts_o">
     <div class="contacts_left_o">
-        <h1 class="contacts_h1_o"><?php __('contacts_h1')?></h1>
+        <h1 class="contacts_h1_o"><?php __('contacts_h1_o')?></h1>
         <div class="contacts_info_o">
             <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts1.png" alt="">
             <a class="contacts_a_o" href="https://www.instagram.com/nikolaydlv/">@Nikolaydlv</a>

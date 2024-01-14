@@ -11,6 +11,7 @@ return [
 	'quote' => 'TUN SIE HEUTE, WAS ANDERE NICHT WOLLEN – MORGEN WERDEN SIE SO LEBEN, WAS ANDERE NICHT KÖNNEN',
 
 	'about' => '// Über mich',
+	'about_o' => 'Über mich',
 	'about_p' => 'Mein Name ist Mykola Dyatlov. Ich lebe in Österreich, in Graz.',
 	'about_p2' => 'Ich bin 21 Jahre alt und beginne meine Reise in die Entwicklung.',
 	'about_p3' => 'Ich bin pragmatisch und pünktlich.',
@@ -18,6 +19,7 @@ return [
 	'about_p5' => 'Ich spreche Russisch, Ukrainisch, Englisch und Deutsch, daher ist es nicht schwierig, mit mir eine gemeinsame Sprache zu finden',
 
 	'skills' => 'Fähigkeiten \\\\',
+	'skills_o' => 'Fähigkeiten',
 	'skills_p' => 'Computerkenntnisse <br/>(MS Offices, Photoshop CC, Vegas Pro)',
 	'skills_p2' => 'HTML, CSS, JS, PHP',
 	'skills_p3' => 'Probleme lösen',
@@ -29,6 +31,7 @@ return [
 	'modal_btn' => 'Einreichen',
 
 	'exp' => '// EXPERIENCE',
+	'exp_o' => 'EXPERIENCE',
 	'exp_p' => 'Restaurant activity - 7 M. ( 16/08/2021 - 24/02/2022) (Waiter/Barman - Restaurant «SHEF" ( Kviv)',
 	'exp_p2' => 'Advertising activity - 2 M. ( 05/06/2021 - 07/08/2021 ) (AquaPark "AquaLand" )',
 	'exp_p3' => 'Support - 7 M. ( 01/04/2022 - 01/11/2022) (Website building platform "UMI")',
@@ -36,6 +39,7 @@ return [
 	'exp_p5' => 'FullStack Developer - 7 M. ( 15/05/2022 - nowadays)',
 
 	'contacts_h1' => 'Lass uns <br/>reden!',
+	'contacts_h1_o' => 'Lass uns reden!',
 	'contacts_p' => 'Wir freuen uns immer über Kooperationen, interessante Projekte und Feedback unserer Kunden.',
 	'contacts_input_name' => 'Ihr Name',
 	'contacts_input_email' => 'Deine E-Mail',
