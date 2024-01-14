@@ -4,7 +4,7 @@
 <body class="body_creative">
     <section class="main">
         <div class="main_block">
-            <img class="main_photo" src="<?php WWW ?>/assets/img/main.png" alt="">
+            <img class="main_photo" src="<?php WWW ?>/assets/img/mainNew.png" alt="">
         </div>
         <div class="main_btn">
             <button class="Btn2" onclick=""><?php __('main_btn'); ?>
@@ -39,7 +39,7 @@
             </p>
         </div>
         <div class="about_right">
-            <img class="about_img" src="<?php WWW ?>/assets/img/about2.png" alt="">
+            <img class="about_img" src="<?php WWW ?>/assets/img/aboutNew.png" alt="">
         </div>
     </section>
     <section class="skills">
