@@ -482,3 +482,11 @@
 =================
 [2023-12-18 17:38:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
 =================
+[2024-01-11 14:05:51] Текст ошибки: No connection to DB | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Db.php | Строка: 19
+=================
+[2024-01-11 14:05:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2024-01-14 15:23:25] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\helpers\functions.php | Строка: 110
+=================
+[2024-01-14 15:23:31] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\helpers\functions.php | Строка: 110
+=================

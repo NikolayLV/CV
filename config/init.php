@@ -13,4 +13,6 @@ define("LAYOUT", 'cv');
 define("PATH", 'https://nikolaylv.com');
 define("NO_IMAGE", '/uploads/no_image.jpg');
 
+date_default_timezone_set('Europe/Vienna');
+
 require_once ROOT . '/vendor/autoload.php';
