@@ -94,3 +94,17 @@ function get_field_array_value($name, $key, $index)
 {
     return isset($_SESSION['form_data'][$name][$key][$index]) ? h($_SESSION['form_data'][$name][$key][$index]) : '';
 }
+
+function logUserData() {
+	$userIP = $_SERVER['REMOTE_ADDR'];
+
+	$userAgent = $_SERVER['HTTP_USER_AGENT'];
+
+	$dateTime = date('Y-m-d H:i:s');
+
+	$userInfo = "Дата/время: $dateTime | IP: $userIP | Место захода: $userAgent\n";
+
+	$fileName = WWW . '/user_info.txt';
+
+	file_put_contents($fileName, $userInfo, FILE_APPEND);
+	}
