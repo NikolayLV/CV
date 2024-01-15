@@ -381,10 +381,23 @@
 
     }
 
+    .header_logo {
+        margin-top: 20px;
+    }
+
     .header_section_mid {
         padding: 10px;
         display: flex;
         justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .header_section_right {
+        display: flex;
+        justify-content: center;
+        flex-grow: 0.33;
+        padding: 5px;
+        margin-top: 10px;
     }
 
     .li_item {
@@ -422,7 +435,8 @@
 
     .about {
         display: block;
-        margin-bottom: 200px;
+        background-color: white;
+        padding-top: 10px;
     }
 
     .about_h1 {
@@ -432,7 +446,7 @@
         line-height: 50px;
         letter-spacing: 0.05em;
         text-align: left;
-        margin-left: 35px;
+        margin-bottom: 20px;
     }
 
     .about_p {
@@ -442,7 +456,6 @@
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-left: 25px;
         padding: 0;
     }
 
@@ -456,14 +469,13 @@
         justify-content: center;
     }
 
+    .about_block {
+        padding: 20px;
+    }
+
     .about_img {
         width: 250px;
         height: 250px;
-    }
-
-    .skills {
-        background-image: url("https://p100.sho/assets/img/skillsMob.png");
-        background-size: 480px 360px;
     }
 
     .skills_right {
@@ -505,6 +517,7 @@
         line-height: 50px;
         letter-spacing: 0.05em;
         text-align: right;
+        margin-bottom: 20px;
     }
 
     .skills_p {
@@ -530,8 +543,8 @@
         font-weight: 400;
         line-height: 50px;
         letter-spacing: 0.05em;
-        text-align: right;
-        margin: 0;
+        text-align: left;
+        margin-bottom: 20px;
     }
 
     .exp_p {
@@ -543,6 +556,10 @@
         text-align: left;
         margin: 0;
         padding: 0;
+    }
+
+    .contacts {
+        display: block;
     }
 
     .contacts_container {
@@ -560,8 +577,9 @@
         line-height: 55px;
         letter-spacing: 0.05em;
         text-align: right;
-        margin: 50px;
+        margin: 25px;
         padding: 0;
+        color: white;
     }
 
     .contacts_a {
@@ -571,13 +589,14 @@
         line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
-        margin: 25px;
         padding: 0;
+        color: white;
     }
 
     .contacts_form_style {
-        width: 240px;
+        width: 270px;
         height: 36px;
+        padding: 4px 15px;
     }
 
     .contacts_btn {
@@ -588,5 +607,14 @@
     .contacts_img {
         width: 25px;
         height: 25px;
+    }
+
+    .form_area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-top: 40px;
     }
 }

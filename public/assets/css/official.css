@@ -6,11 +6,11 @@
 /* Стили раздела officia */
 
 .body_official {
-    background-color: black;
+    background-color: #1a1818;
 }
 
 .header_official {
-    background-color: black;
+    background-color: #1a1818;
 }
 
 header {
@@ -130,7 +130,7 @@ header {
 }
 
 .about_o {
-    background-color: #dcd7d7;
+    background-color: #f0e8e8;
     padding-top: 50px;
 }
 
@@ -159,7 +159,7 @@ header {
 }
 
 .skills_o {
-    background-color: black;
+    background-color: #1a1818;
     align-items: end;
 }
 
@@ -302,7 +302,7 @@ header {
     padding: 6px 10px;
     border-radius: 16px;
     font-size: 15px;
-    background-color: black;
+    background-color: #1a1818;
     color: white;
 }
 
