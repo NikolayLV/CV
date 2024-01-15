@@ -18,6 +18,53 @@ header {
     padding: 0;
     background-color: white;
 }
+
+.Btn_o {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 170px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #264143;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #1d3436;
+    transition-duration: .3s;
+    margin-right: 40px;
+}
+
+.svg_o {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+}
+
+.Btn_o:hover {
+    color: transparent;
+}
+
+.Btn_o:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+}
+
+.Btn_o:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px #1d3436;
+}
+
 .header_section_o {
     display: flex;
 }
@@ -83,7 +130,7 @@ header {
 }
 
 .about_o {
-    background-color: white;
+    background-color: #dcd7d7;
     padding-top: 50px;
 }
 
@@ -128,6 +175,7 @@ header {
     letter-spacing: 0em;
     text-align: right;
     color: white;
+    margin-bottom: 40px;
 }
 
 .skills_p_o {
@@ -138,11 +186,10 @@ header {
     letter-spacing: 0em;
     text-align: right;
     color: white;
-    margin-right: 140px;
 }
 
 .exp_o {
-    background-color: white;
+    background-color: #dcd7d7;
     align-items: start;
 }
 
@@ -158,6 +205,7 @@ header {
     letter-spacing: 0em;
     text-align: left;
     color: black;
+    margin-bottom: 40px;
 }
 
 .exp_p_o {
@@ -170,8 +218,14 @@ header {
     color: black;
 }
 
+.contacts_o {
+    display: flex;
+    justify-content: space-around;
+}
+
 .contacts_left_o {
-    margin-top: 50px;
+    margin-top: 100px;
+    padding: 20px;
 }
 
 .contacts_h1_o {
@@ -180,7 +234,9 @@ header {
     font-weight: 400;
     line-height: 120px;
     letter-spacing: 0.05em;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 40px;
+    color: white;
 }
 
 .contacts_info_o {
@@ -200,7 +256,8 @@ header {
     line-height: 50px;
     letter-spacing: 0.01em;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 25px;
+    color: white;
 }
 
 
@@ -228,6 +285,7 @@ header {
 .contacts_sub_title_o {
     font-weight: 600;
     margin: 5px 0;
+    color: white;
 }
 
 .contacts_form_group_o {
@@ -240,28 +298,35 @@ header {
 .contacts_form_style_o {
     outline: none;
     border: 2px solid #264143;
-    box-shadow: 3px 4px 0px 1px #9F4CF3;
     width: 290px;
     padding: 6px 10px;
-    border-radius: 4px;
+    border-radius: 16px;
     font-size: 15px;
+    background-color: black;
+    color: white;
 }
 
-.contacts_form_style_o:focus, .contacts_btn:focus {
+.contacts_form_style_o::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.contacts_form_style_o:focus, .contacts_btn_o:focus {
     transform: translateY(4px);
-    box-shadow: 1px 2px 0px 0px #E99F4C;
+    box-shadow: 2px 4px 0px 0px #1d3436;
 }
 
-.contacts_btn {
+.contacts_btn_o {
     padding: 10px;
     color: white;
+    border: 2px solid #203638;
     margin: 25px 10px;
     width: 290px;
     font-size: 15px;
-    background: #9F4CF3;
+    background: #264143;
     border-radius: 10px;
     font-weight: 800;
-    box-shadow: 3px 3px 0px 0px #2d0846;
+    box-shadow: 3px 3px 0px 0px #1d3436;
 }
 
 .contacts_btn:hover {

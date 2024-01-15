@@ -107,7 +107,7 @@
                     <textarea placeholder="<?php __('contacts_input_text'); ?>" name="text" id="text" class="contacts_form_style_o" cols="30" rows="10" required></textarea>
                 </div>
                 <div>
-                    <button onclick="sendContacts()" class="contacts_btn"><?php __('contacts_input_text'); ?></button>
+                    <button onclick="sendContacts()" class="contacts_btn_o"><?php __('contacts_input_text'); ?></button>
             </form>
 			<?php
 				if (isset($_SESSION['contacts_data'])) {
