@@ -70,19 +70,19 @@
     <div class="contacts_left_o">
         <h1 class="contacts_h1_o"><?php __('contacts_h1_o')?></h1>
         <div class="contacts_info_o">
-            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts1.png" alt="">
+            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts1o.png" alt="">
             <a class="contacts_a_o" href="https://www.instagram.com/nikolaydlv/">@Nikolaydlv</a>
         </div>
         <div class="contacts_info_o">
-            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts2.png" alt="">
+            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts2o.png" alt="">
             <a class="contacts_a_o" href="https://t.me/nikolaydlv">@Nikolaydlv</a>
         </div>
         <div class="contacts_info_o">
-            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts3.png" alt="">
+            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts3o.png" alt="">
             <a class="contacts_a_o" href="https://github.com/NikolayLV">@NikolayLV</a>
         </div>
         <div class="contacts_info_o">
-            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts4.png" alt="">
+            <img class="contacts_img_o" src="<?php PATH ?>/assets/img/contacts4o.png" alt="">
             <a class="contacts_a_o" href="mailto:nikolayd2002@gmail.com">nikolayd2002@gmail.com</a>
         </div>
     </div>
@@ -107,7 +107,7 @@
                     <textarea placeholder="<?php __('contacts_input_text'); ?>" name="text" id="text" class="contacts_form_style_o" cols="30" rows="10" required></textarea>
                 </div>
                 <div>
-                    <button onclick="sendContacts()" class="contacts_btn"><?php __('contacts_input_text'); ?></button>
+                    <button onclick="sendContacts()" class="contacts_btn_o"><?php __('contacts_input_text'); ?></button>
             </form>
 			<?php
 				if (isset($_SESSION['contacts_data'])) {
