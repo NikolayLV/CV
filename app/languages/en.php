@@ -18,12 +18,12 @@ return [
 	'about_p4' => 'I also bring the idea to its logical conclusion',
 	'about_p5' => 'I speak Russian, Ukrainian, English and German, so finding a common language with me is not difficult ',
 
-	'skills' => 'Skills \\\\',
-	'skills_o' => 'Skills',
-	'skills_p' => 'Computer skills <br/>(MS Offices, Photoshop CC, Vegas pro)',
-	'skills_p2' => 'HTML, CSS, JS, PHP',
-	'skills_p3' => 'Problem solving',
-	'skills_p4' => 'Fast learner',
+	'skills' => 'Computer skills \\\\',
+	'skills_o' => 'Computer skills',
+	'skills_p' => 'Network applications: <br/>Protocols (e.g. WebRTC stack), Algorithms, Data structures',
+	'skills_p2' => 'Backend development: <br/>PHP, MySQL',
+	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, HTML, CSS',
+	'skills_p4' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
 
 	'modal' => 'Choose a site style',
 	'modal_creative' => 'Creative',

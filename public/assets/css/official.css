@@ -338,7 +338,7 @@ header {
 
 /*Адаптивность для мобильных устройств*/
 
-@media screen and (max-width: 440px) {
+@media (min-width: 260px) and (max-width: 629px) {
     .header_section_o {
         display: block;
 
@@ -579,5 +579,287 @@ header {
         flex-direction: column;
         height: auto;
         margin-top: 40px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 820px) {
+    .header_section_o {
+        display: flex;
+
+    }
+
+    .header_logo_o {
+        margin-top: 10px;
+        width: 86px;
+        height: 25px;
+    }
+
+    .header_section_left_o {
+        display: flex;
+        justify-content: center;
+        flex-grow: 0.33;
+        align-items: normal;
+    }
+
+    .header_section_mid_o {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header_section_right_o {
+        display: flex;
+        justify-content: center;
+        flex-grow: 0.33;
+        padding: 0;
+        margin: 0;
+    }
+
+    .li_item_o {
+        margin: 5px 20px 0 20px;
+    }
+
+    .a_page_o {
+        font-family: Mallanna, serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .main_photo_o {
+        width: 364px;
+        height: 191px;
+    }
+
+    .main_btn_o {
+        display: none;
+    }
+
+    .quote_p_o {
+        font-family: Basic, serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .about_o {
+        display: block;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    .about_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .about_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0;
+    }
+
+    .modal_o {
+        height: 70vh;
+    }
+
+    .about_right_o {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_block_o {
+        padding: 20px;
+    }
+
+    .about_img_o {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skills_right_o {
+        margin: 0;
+    }
+
+    .skills_left_o {
+        display: flex;
+        margin: 0;
+    }
+
+    .skills_div_img img:nth-child(n+6) {
+        display: none;
+    }
+
+    .skills_div_img_o {
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+    .skills_img_mob_o {
+        display: grid;
+        grid-template-columns: 75px 75px 75px;
+        margin-top: 50px;
+    }
+
+    .img_left_o {
+        display: none;
+    }
+
+    .img_right_o {
+        display: none;
+    }
+
+    .skills_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+
+    .skills_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .skills_img_o {
+        width: 30px;
+        height: 30px;
+    }
+
+    .exp_h1_o {
+        font-family: Barrio, serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .exp_p_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts_o {
+        display: block;
+    }
+
+    .contacts_container_o {
+        display: block;
+    }
+
+    .contacts_info_o {
+        margin-left: 75px;
+    }
+
+    .contacts_h1_o {
+        font-family: Barrio, serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin: 25px;
+        padding: 0;
+        color: white;
+    }
+
+    .contacts_a_o {
+        font-family: Commissioner, serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0;
+        color: white;
+    }
+
+    .contacts_form_style_o {
+        width: 270px;
+        height: 36px;
+        padding: 4px 15px;
+    }
+
+    .contacts_btn_o {
+        width: 270px;
+        padding: 5px;
+    }
+
+    .contacts_img_o {
+        width: 25px;
+        height: 25px;
+    }
+
+    .form_area_o {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .Btn_o {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 120px;
+        height: 25px;
+        border: none;
+        padding: 0px 20px;
+        background-color: #264143;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #1d3436;
+        transition-duration: .3s;
+        margin-right: 40px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .dropdown-toggle_o {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.25em;
+        text-align: center;
+        color: white;
     }
 }
