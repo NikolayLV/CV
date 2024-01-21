@@ -42,6 +42,12 @@
         <p class="skills_p_o">
 			<?php __('skills_p4'); ?>
         </p>
+        <p class="skills_p_o">
+			<?php __('skills_p5'); ?>
+        </p>
+        <p class="skills_p_o">
+			<?php __('skills_p6'); ?>
+        </p>
     </div>
 </section>
 <section class="exp_o">

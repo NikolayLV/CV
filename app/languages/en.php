@@ -12,7 +12,7 @@ return [
 
 	'about' => '// About me',
 	'about_o' => 'About me',
-	'about_p' => 'My name is Nikolay (Mykola) Diatlov and I am 21 years old. Currently, I live in Austria.  Finally, I can confidently say that I have found my purpose and my calling.',
+	'about_p' => 'My name is Nikolay (Mykola) Diatlov and I am 21 years old. Currently, I live in Austria.',
 	'about_p2' => 'Throughout my relatively short life, I have been involved in various activities, ranging from composing my own music to developing software.',
 	'about_p3' => 'Finally, I can confidently say that I have found my purpose and my calling. ',
 	'about_p4' => ' I started my path in programming at the beginning of 2022, when the life of every Ukrainian changed. Since then, every day I learn something new and enhance my existing skills.',
@@ -20,10 +20,12 @@ return [
 
 	'skills' => 'Computer skills \\\\',
 	'skills_o' => 'Computer skills',
-	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Data structures',
-	'skills_p2' => 'Backend development: <br/>PHP, MySQL',
-	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, HTML, CSS',
-	'skills_p4' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
+	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Design patterns',
+	'skills_p2' => 'Backend development: <br/>PHP (Laravel, RedBeanPHP, PHPMailer, Composer, Yii), SQL',
+	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, React, Git, HTML, CSS',
+	'skills_p4' => 'Quality assurance: <br/>PHP(PHPUnit, Selenium, Codeception), JS(Selenium (w. WebDriver))',
+	'skills_p5' => 'Computer applications: <br/>Vagrant VM, Visual studio, FL Studio, Photoshop, Docs etc.',
+	'skills_p6' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
 
 	'modal' => 'Choose a site style',
 	'modal_creative' => 'Creative',

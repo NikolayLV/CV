@@ -20,10 +20,12 @@ return [
 
 	'skills' => 'Fähigkeiten \\\\',
 	'skills_o' => 'Fähigkeiten',
-	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Data structures',
-	'skills_p2' => 'Backend development: <br/>PHP, MySQL',
-	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, HTML, CSS',
-	'skills_p4' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
+	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Design patterns',
+	'skills_p2' => 'Backend development: <br/>PHP (Laravel, RedBeanPHP, PHPMailer, Composer, Yii), SQL',
+	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, React, Git, HTML, CSS',
+	'skills_p4' => 'Quality assurance: <br/>PHP(PHPUnit, Selenium, Codeception), JS(Selenium (w. WebDriver))',
+	'skills_p5' => 'Computer applications: <br/>Vagrant VM, Visual studio, FL Studio, Photoshop, Docs etc.',
+	'skills_p6' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
 
 	'modal' => 'Wählen Sie einen Site-Stil',
 	'modal_creative' => 'Kreativ',
@@ -36,7 +38,6 @@ return [
 	'exp_p' => 'Advertising activity - ( 05/06/2021 - 07/08/2021 ) (AquaPark "AquaLand" )',
 	'exp_p3' => 'Support - ( 01/04/2022 - 01/11/2022) (Website building platform "UMI")',
 	'exp_p4' => 'QA - ( 01/11/2022 - 14/05/2023) (Website building platform "UMI")',
-	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays)',
 	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays)',
 
 	'edu' => 'Educational background',
