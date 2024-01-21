@@ -12,7 +12,7 @@ return [
 
 	'about' => '// About me',
 	'about_o' => 'About me',
-	'about_p' => 'My name is Nikolay (Mykola) Diatlov and I am 21 years old. Currently, I live in Austria.  Finally, I can confidently say that I have found my purpose and my calling.',
+	'about_p' => 'My name is Nikolay (Mykola) Diatlov and I am 21 years old. Currently, I live in Austria.',
 	'about_p2' => 'Throughout my relatively short life, I have been involved in various activities, ranging from composing my own music to developing software.',
 	'about_p3' => 'Finally, I can confidently say that I have found my purpose and my calling. ',
 	'about_p4' => ' I started my path in programming at the beginning of 2022, when the life of every Ukrainian changed. Since then, every day I learn something new and enhance my existing skills.',
@@ -20,10 +20,12 @@ return [
 
 	'skills' => 'Computer skills \\\\',
 	'skills_o' => 'Computer skills',
-	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Data structures',
-	'skills_p2' => 'Backend development: <br/>PHP, MySQL',
-	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, HTML, CSS',
-	'skills_p4' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
+	'skills_p' => 'Network applications: <br>Protocols (e.g. WebRTC stack), Algorithms, Design patterns',
+	'skills_p2' => 'Backend development: <br/>PHP (Laravel, RedBeanPHP, PHPMailer, Composer, Yii), SQL',
+	'skills_p3' => 'Full stack development: <br/>JavaScript, TypeScript, Node.js, React, Git, HTML, CSS',
+	'skills_p4' => 'Quality assurance: <br/>PHP(PHPUnit, Selenium, Codeception), JS(Selenium (w. WebDriver))',
+	'skills_p5' => 'Computer applications: <br/>Vagrant VM, Visual studio, FL Studio, Photoshop, Docs etc.',
+	'skills_p6' => 'Languages: <br/>Russian and Ukrainian - Native languages<br/>English - Fluent<br/>German - Intermediate',
 
 	'modal' => 'Choose a site style',
 	'modal_creative' => 'Creative',
@@ -39,9 +41,11 @@ return [
 	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays)',
 
 	'edu' => 'Educational background',
-	'edu_p' => 'Educational background',
-	'edu_p2' => 'Educational background',
-	'edu_p3' => 'Educational background',
+	'edu_p' => '2020 - 2022 Nationaal University of Life and Environmental Sciences NUBiP -
+One of the finest Ukrainian institutions. Unfortunately, I found my calling late and had to drop out. Because of the was in Ukraine, I was unable to cross the border to study at the National University of Vienna.',
+	'edu_p2' => '2022 - 2023 CyberBionic Systematics -
+Frontend Developer (React). One of Ukraine\\\'s top-ranking schools for developers.',
+	'edu_p3' => '2022 - 2024 Self-learning development - I am learning cause i initiate myself, away from the setting of formal education, curriculums or examinations. Independent learning for me is about being self-motivated, disciplined and dedicated to improving yourself and your skill set.',
 
 	'contacts_h1' => 'Let\'s <br/>talk!',
 	'contacts_h1_o' => 'Let\'s talk!',

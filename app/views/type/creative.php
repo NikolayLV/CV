@@ -166,6 +166,14 @@
 					<?php __('skills_p4'); ?>
                     <br/>
                 </p>
+                <p class="skills_p">
+					<?php __('skills_p5'); ?>
+                    <br/>
+                </p>
+                <p class="skills_p">
+					<?php __('skills_p6'); ?>
+                    <br/>
+                </p>
             </div>
 
         </div>
