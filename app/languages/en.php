@@ -41,9 +41,11 @@ return [
 	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays)',
 
 	'edu' => 'Educational background',
-	'edu_p' => 'Educational background',
-	'edu_p2' => 'Educational background',
-	'edu_p3' => 'Educational background',
+	'edu_p' => '2020 - 2022 Nationaal University of Life and Environmental Sciences NUBiP -
+One of the finest Ukrainian institutions. Unfortunately, I found my calling late and had to drop out. Because of the was in Ukraine, I was unable to cross the border to study at the National University of Vienna.',
+	'edu_p2' => '2022 - 2023 CyberBionic Systematics -
+Frontend Developer (React). One of Ukraine\\\'s top-ranking schools for developers.',
+	'edu_p3' => '2022 - 2024 Self-learning development - I am learning cause i initiate myself, away from the setting of formal education, curriculums or examinations. Independent learning for me is about being self-motivated, disciplined and dedicated to improving yourself and your skill set.',
 
 	'contacts_h1' => 'Let\'s <br/>talk!',
 	'contacts_h1_o' => 'Let\'s talk!',
