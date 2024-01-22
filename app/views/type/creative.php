@@ -6,7 +6,7 @@
             <img class="main_photo" src="<?php WWW ?>/assets/img/mainNew.png" alt="">
         </div>
         <div class="main_btn">
-            <a href="https://p100.sho/CV.pdf" class="Btn2" download><?php __('main_btn'); ?></a>
+            <a href="https://nikolaylv.com/CV.pdf" class="Btn2" download><?php __('main_btn'); ?></a>
         </div>
     </section>
 
