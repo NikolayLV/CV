@@ -7,7 +7,7 @@
             <img class="main_photo" src="<?php WWW ?>/assets/img/mainNew.png" alt="">
         </div>
         <div class="main_btn">
-            <button class="Btn2" onclick=""><?php __('main_btn'); ?>
+            <button class="Btn2" onclick="downloadCV()"><?php __('main_btn'); ?>
             </button>
         </div>
     </section>

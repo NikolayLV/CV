@@ -191,3 +191,48 @@ $(function() {
 	});
 
 });
+
+function downloadCV() {
+		let filePath = '/public/assets/CV.pdf';
+
+		// Создаем новый XMLHttpRequest объект
+		let xhr = new XMLHttpRequest();
+
+		// Открываем запрос на получение файла
+		xhr.open('GET', filePath, true);
+
+		// Устанавливаем responseType в "blob"
+		xhr.responseType = 'blob';
+
+		// Обработка успешного завершения запроса
+		xhr.onload = function() {
+			if (xhr.status === 200) {
+				// Создаем Blob из полученных данных
+				var blob = new Blob([xhr.response], { type: 'application/octet-stream' });
+
+				// Создаем временную ссылку на Blob
+				var url = window.URL.createObjectURL(blob);
+
+				// Создаем ссылку для скачивания
+				var a = document.createElement('a');
+				a.href = url;
+				a.download = filePath.substring(filePath.lastIndexOf('/') + 1);
+
+				// Добавляем ссылку на документ
+				document.body.appendChild(a);
+
+				// Запускаем скачивание
+				a.click();
+
+				// Удаляем ссылку из документа
+				document.body.removeChild(a);
+
+				// Очищаем URL объекта
+				window.URL.revokeObjectURL(url);
+			}
+		};
+
+		// Отправляем запрос
+		xhr.send();
+	};
+

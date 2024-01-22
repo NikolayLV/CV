@@ -182,7 +182,7 @@
 }
 .skills_left {
     display: flex;
-    margin-top: 75px;
+    margin-top: 175px;
     margin-bottom: 200px;
 }
 .skills_div_img {
@@ -340,7 +340,7 @@
 
 .contacts_h1 {
     font-family: Barrio, serif;
-    font-size: 125px;
+    font-size: 76px;
     font-weight: 400;
     line-height: 120px;
     letter-spacing: 0.05em;
