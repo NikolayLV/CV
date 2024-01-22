@@ -47,7 +47,7 @@ One of the finest Ukrainian institutions. Unfortunately, I found my calling late
 Frontend Developer (React). One of Ukraine\\\'s top-ranking schools for developers.',
 	'edu_p3' => '2022 - 2024 Self-learning development - I am learning cause i initiate myself, away from the setting of formal education, curriculums or examinations. Independent learning for me is about being self-motivated, disciplined and dedicated to improving yourself and your skill set.',
 
-	'contacts_h1' => 'Let\'s <br/>talk!',
+	'contacts_h1' => 'Let\'s talk!',
 	'contacts_h1_o' => 'Let\'s talk!',
 	'contacts_p' => 'We are always glad for collaborations, interesting projects and feedback from our clients.',
 	'contacts_input_name' => 'Your name',

@@ -182,7 +182,7 @@
 }
 .skills_left {
     display: flex;
-    margin-top: 75px;
+    margin-top: 175px;
     margin-bottom: 200px;
 }
 .skills_div_img {
@@ -340,7 +340,7 @@
 
 .contacts_h1 {
     font-family: Barrio, serif;
-    font-size: 125px;
+    font-size: 76px;
     font-weight: 400;
     line-height: 120px;
     letter-spacing: 0.05em;
@@ -446,6 +446,7 @@
         letter-spacing: 0.05em;
         text-align: left;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 
     .about_p {
@@ -491,14 +492,15 @@
     }
 
     .skills_div_img {
-        padding: 10px;
-        margin-left: 50px;
+        padding: 0;
+        margin-left: 10px;
     }
 
     .skills_img_mob {
         display: grid;
-        grid-template-columns: 75px 75px 75px;
-        margin-top: 50px;
+        grid-template-columns: 40px 40px 40px;
+        margin-top: 140px;
+        padding: 10px;
     }
 
     .img_left {
@@ -517,6 +519,7 @@
         letter-spacing: 0.05em;
         text-align: right;
         margin-bottom: 20px;
+        margin-top: 140px;
     }
 
     .skills_p {
@@ -532,8 +535,8 @@
     }
 
     .skills_img {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .exp_h1 {
@@ -543,7 +546,13 @@
         line-height: 50px;
         letter-spacing: 0.05em;
         text-align: left;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .exp_left {
+        width: auto;
+        margin-left: 40px;
+        margin-top: 20px;
     }
 
     .exp_p {
@@ -554,11 +563,15 @@
         letter-spacing: 0em;
         text-align: left;
         margin: 0;
-        padding: 0;
+        padding: 20px 0;
     }
 
     .contacts {
         display: block;
+    }
+
+    .contacts {
+        background-color: #ffffff;
     }
 
     .contacts_container {
@@ -578,7 +591,7 @@
         text-align: right;
         margin: 25px;
         padding: 0;
-        color: white;
+        color: #000000;
     }
 
     .contacts_a {
@@ -589,7 +602,7 @@
         letter-spacing: 0em;
         text-align: left;
         padding: 0;
-        color: white;
+        color: #000000;
     }
 
     .contacts_form_style {

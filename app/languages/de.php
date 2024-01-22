@@ -48,7 +48,7 @@ Frontend Developer (React). One of Ukraine\\\'s top-ranking schools for develope
 	'edu_p3' => '2022 - 2024 Self-learning development - I am learning cause i initiate myself, away from the setting of formal education, curriculums or examinations. Independent learning for me is about being self-motivated, disciplined and dedicated to improving yourself and your skill set.',
 
 
-	'contacts_h1' => 'Lass uns <br/>reden!',
+	'contacts_h1' => 'Lass uns reden!',
 	'contacts_h1_o' => 'Lass uns reden!',
 	'contacts_p' => 'Wir freuen uns immer über Kooperationen, interessante Projekte und Feedback unserer Kunden.',
 	'contacts_input_name' => 'Ihr Name',
