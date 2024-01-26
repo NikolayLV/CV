@@ -192,6 +192,48 @@ $(function() {
 
 });
 
+
+if (typeof showModal !== 'undefined' && showModal) {
+	document.getElementById('modal').classList.add('open');
+}
+
+function chooseStyle() {
+	document.getElementById('modal').classList.add('open');
+}
+
+function closePopup() {
+	document.getElementById('modal').classList.remove('open');
+	setTimeout(function () {
+		document.querySelector('.load').style.display = 'none';
+	}, 3000);
+}
+
+function sendContacts() {
+	let inputName = document.getElementById('name').value;
+	let inputEmail = document.getElementById('email').value;
+	let inputPhone = document.getElementById('phone').value;
+	let inputText = document.getElementById('text').value;
+
+	switch (true) {
+		case !inputName:
+			alert('Fill in the name field!');
+			break;
+		case !inputEmail:
+			alert('Fill in the email field!');
+			break;
+		case !inputPhone:
+			alert('Fill in the phone field!');
+			break;
+		case !inputText:
+			alert('Fill in the message field!');
+			break;
+		case inputName && inputEmail && inputText:
+			alert('The message was sent successfully!');
+			break;
+	}
+
+}
+
 function downloadCV() {
 		let filePath = '/public/assets/CV.pdf';
 
@@ -235,4 +277,3 @@ function downloadCV() {
 		// Отправляем запрос
 		xhr.send();
 	};
-
