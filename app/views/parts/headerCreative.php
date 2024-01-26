@@ -11,13 +11,13 @@
         </div>
 		<div class="header_section_mid">
             <li class='li_item'>
-                <a class='a_page' href="#"><?php __('header_about'); ?></a>
+                <a class='a_page' href="?layout=creative#about"><?php __('header_about'); ?></a>
             </li>
             <li class='li_item'>
-                <a class='a_page' href="#"><?php __('header_skills'); ?></a>
+                <a class='a_page' href="?layout=creative#skills"><?php __('header_skills'); ?></a>
             </li>
             <li class='li_item'>
-                <a class='a_page' href="#"><?php __('header_exp'); ?></a>
+                <a class='a_page' href="?layout=creative#exp"><?php __('header_exp'); ?></a>
             </li>
 		</div>
 		<ul class='header_section_right'>

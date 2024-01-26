@@ -6,13 +6,13 @@
         </div>
         <div class="header_section_mid_o">
             <li class='li_item_o'>
-                <a class='a_page_o' href="#"><?php __('header_about'); ?></a>
+                <a class='a_page_o' href="?layout=official#about"><?php __('header_about'); ?></a>
             </li>
             <li class='li_item_o'>
-                <a class='a_page_o' href="#"><?php __('header_skills'); ?></a>
+                <a class='a_page_o' href="?layout=official#skills"><?php __('header_skills'); ?></a>
             </li>
             <li class='li_item_o'>
-                <a class='a_page_o' href="#"><?php __('header_exp'); ?></a>
+                <a class='a_page_o' href="?layout=official#exp"><?php __('header_exp'); ?></a>
             </li>
         </div>
         <ul class='header_section_right_o'>
