@@ -14,7 +14,7 @@
 
     <section class="about">
         <div class="about_left">
-            <h1 class="about_h1"><?php __('about'); ?></h1>
+            <h1 class="about_h1" id="about"><?php __('about'); ?></h1>
             <p class="about_p">
 				<?php __('about_p'); ?>
                 <br/>
@@ -147,7 +147,7 @@
         </div>
         <div class="skills_right">
             <div class="skills_info">
-                <h1 class="skills_h1"><?php __('skills'); ?></h1>
+                <h1 class="skills_h1" id="skills"><?php __('skills'); ?></h1>
                 <p class="skills_p">
 					<?php __('skills_p'); ?>
                     <br/>
@@ -178,7 +178,7 @@
     </section>
     <section class="exp">
         <div class="exp_left">
-            <h1 class="exp_h1"><?php __('exp'); ?></h1>
+            <h1 class="exp_h1" id="exp"><?php __('exp'); ?></h1>
             <p class="exp_p">
 				<?php __('exp_p'); ?>
                 <br/>

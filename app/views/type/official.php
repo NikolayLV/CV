@@ -4,7 +4,7 @@
 <body class="body_official">
 <section class="about_o">
     <div class="about_block_o">
-        <h1 class="about_h1_o">
+        <h1 class="about_h1_o" id="about">
 			<?php __('about_o'); ?>
         </h1>
         <p class="about_p_o">
@@ -28,7 +28,7 @@
 </section>
 <section class="skills_o">
     <div class="skills_block_o">
-        <h1 class="skills_h1_o">
+        <h1 class="skills_h1_o" id="skills">
 			<?php __('skills_o'); ?>
         </h1>
         <p class="skills_p_o">
@@ -53,7 +53,7 @@
 </section>
 <section class="exp_o">
     <div class="exp_block_o">
-        <h1 class="exp_h1_o">
+        <h1 class="exp_h1_o" id="exp">
 			<?php __('exp_o'); ?>
         </h1>
         <p class="exp_p_o">
