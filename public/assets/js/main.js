@@ -203,9 +203,6 @@ function chooseStyle() {
 
 function closePopup() {
 	document.getElementById('modal').classList.remove('open');
-	setTimeout(function () {
-		document.querySelector('.load').style.display = 'none';
-	}, 3000);
 }
 
 function sendContacts() {
