@@ -15,18 +15,17 @@
 }
 
 	if (!isset($_SESSION['visited'])) {
-		// Если куки не установлены, отправляем сценарий JavaScript
+
 		$this->getPart('parts/loading');
 		echo '<script type="text/javascript">
 
-
 				(function (){
                     setTimeout(function () {
-		location.reload();
-	}, 3000);
+					location.reload();
+					}, 3000);
 				})(1);
 				</script>';
-		// Устанавливаем куки, чтобы не показывать модальное окно снова
+
 		$_SESSION['visited'] = true;
 	}
 	$this->getPart('parts/modal');

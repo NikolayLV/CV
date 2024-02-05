@@ -19,7 +19,7 @@ header {
     background-color: white;
 }
 
-.Btn_o {
+.btn_o {
     position: relative;
     display: flex;
     align-items: center;
@@ -36,6 +36,10 @@ header {
     box-shadow: 5px 5px 0px #1d3436;
     transition-duration: .3s;
     margin-right: 40px;
+}
+
+#btn_download {
+    margin-right: 20px;
 }
 
 .svg_o {
