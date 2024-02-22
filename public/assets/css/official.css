@@ -35,11 +35,10 @@ header {
     border-radius: 10px;
     box-shadow: 5px 5px 0px #1d3436;
     transition-duration: .3s;
-    margin-right: 40px;
 }
 
-#btn_download {
-    margin-right: 20px;
+.block_btn {
+    padding: 30px;
 }
 
 .svg_o {

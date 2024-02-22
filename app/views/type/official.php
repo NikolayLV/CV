@@ -23,7 +23,10 @@
 			<?php __('about_p5'); ?>
         </p>
     </div>
-    <a href="https://nikolaylv.com/CV.pdf" class="btn_o" id="btn_download" download><?php __('main_btn'); ?></a>
+
+    <div class="block_btn">
+        <a href="https://nikolaylv.com/CV.pdf" class="btn_o" id="btn_download" download><?php __('main_btn'); ?></a>
+    </div>
 
 </section>
 <section class="skills_o">
