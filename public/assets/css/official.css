@@ -41,6 +41,28 @@ header {
     padding: 30px;
 }
 
+.btn_o2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 170px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #264143;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #1d3436;
+    transition-duration: .3s;
+}
+
+.block_btn2 {
+    padding: 30px;
+}
+
 .svg_o {
     width: 13px;
     position: absolute;

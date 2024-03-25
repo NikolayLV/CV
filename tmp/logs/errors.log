@@ -746,3 +746,9 @@
 =================
 [2024-01-13 03:08:14] Текст ошибки: Страница не найдена | Файл: /home3/nikolay1/public_html/cv/vendor/wfm/Router.php | Строка: 66
 =================
+[2024-02-04 17:59:06] Текст ошибки: No connection to DB | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Db.php | Строка: 19
+=================
+[2024-02-04 17:59:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\p100.sho\vendor\wfm\Router.php | Строка: 66
+=================
+[2024-02-04 18:12:45] Текст ошибки: Undefined array key "layout" | Файл: C:\OSPanel\domains\p100.sho\app\views\Main\index.php | Строка: 4
+=================
