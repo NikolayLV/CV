@@ -12,7 +12,7 @@ return [
 
 	'about' => '// Über mich',
 	'about_o' => 'Über mich',
-	'about_p' => 'Mein Name ist Nikolay (Mykola) Diatlov und ich bin 21 Jahre alt.',
+	'about_p' => 'Mein Name ist Mykola Diatlov und ich bin 21 Jahre alt.',
 	'about_p2' => 'Derzeit lebe ich in Österreich. In meinem relativ kurzen Leben habe ich mich mit verschiedenen Aktivitäten beschäftigt, angefangen von der Komposition meiner eigenen Musik bis hin zur Entwicklung von Software.',
 	'about_p3' => 'Endlich kann ich mit Zuversicht sagen, dass ich meine Bestimmung und meine Berufung gefunden habe.',
 	'about_p4' => 'Mein Weg in der Programmierung begann Anfang 2022, als sich das Leben jedes Ukrainers veränderte. Seitdem lerne ich jeden Tag etwas Neues und verbessere meine vorhandenen Fähigkeiten.',
@@ -36,9 +36,9 @@ return [
 	'exp_o' => 'EXPERIENCE',
 	'exp_p2' => 'Restaurant activity - ( 16/08/2021 - 24/02/2022) (Waiter/Barman - Restaurant "SHEF" ( Kyiv)',
 	'exp_p' => 'Advertising activity - ( 05/06/2021 - 07/08/2021 ) (AquaPark "AquaLand" )',
-	'exp_p3' => 'Support - ( 01/04/2022 - 01/11/2022) (Website building platform "UMI")',
-	'exp_p4' => 'QA - ( 01/11/2022 - 14/05/2023) (Website building platform "UMI")',
-	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays)',
+	'exp_p3' => 'Support - ( 01/04/2022 - 01/11/2022) (Website building platform "UMI.CMS")',
+	'exp_p4' => 'QA - ( 01/11/2022 - 14/05/2023) (Website building platform "Closer")',
+	'exp_p5' => 'FullStack Developer - ( 15/05/2022 - nowadays) (Website building platform "Closer")',
 
 	'edu' => 'Educational background',
 	'edu_p' => '2020 - 2022 Nationaal University of Life and Environmental Sciences NUBiP -
