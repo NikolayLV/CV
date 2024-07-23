@@ -180,14 +180,6 @@
         <div class="exp_left">
             <h1 class="exp_h1" id="exp"><?php __('exp'); ?></h1>
             <p class="exp_p">
-				<?php __('exp_p'); ?>
-                <br/>
-            </p>
-            <p class="exp_p">
-				<?php __('exp_p2'); ?>
-                <br/>
-            </p>
-            <p class="exp_p">
 				<?php __('exp_p3'); ?>
                 <br/>
             </p>
